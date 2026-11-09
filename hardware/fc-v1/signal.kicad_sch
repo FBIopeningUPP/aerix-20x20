@@ -1860,18 +1860,6 @@
 		(uuid "6c5d4468-f911-44e5-8223-e66adb4f4931")
 	)
 	(rectangle
-		(start 145 75)
-		(end 284 185)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "b92cd000-ec1d-462c-af63-d421d40536e9")
-	)
-	(rectangle
 		(start 145 12)
 		(end 281 74)
 		(stroke
@@ -1894,7 +1882,7 @@
 		)
 		(uuid "60aa35fd-1ade-4d87-b074-233effb35262")
 	)
-	(text "AUX UART / SWD"
+	(text "ELRS / SWD"
 		(exclude_from_sim no)
 		(at 20 153 0)
 		(effects
@@ -1916,7 +1904,7 @@
 		)
 		(uuid "909cc441-4c3f-4e27-b9a1-4f8e81f0e1c5")
 	)
-	(text "Video / buzzer / RGB pads"
+	(text "VTX / SmartAudio / buzzer / RGB pads"
 		(exclude_from_sim no)
 		(at 293 86 0)
 		(effects
@@ -1927,7 +1915,7 @@
 		)
 		(uuid "91bd4208-9d3c-4745-9aa3-7b4361050b00")
 	)
-	(text "Receiver UART / I2C"
+	(text "I2C pads"
 		(exclude_from_sim no)
 		(at 20 101 0)
 		(effects
@@ -1937,17 +1925,6 @@
 			(justify left)
 		)
 		(uuid "a0a784a5-0fc6-4f32-9ea6-4c66c4cddd11")
-	)
-	(text "Camera / analog VTX / buzzer"
-		(exclude_from_sim no)
-		(at 146 81 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "c700a652-bab0-450b-8d8a-383b16317264")
 	)
 	(text "Alternate ESC motor solder pads"
 		(exclude_from_sim no)
@@ -2147,16 +2124,6 @@
 			(type default)
 		)
 		(uuid "4a5dc1b9-c6fd-4f81-9f91-165f8a1df8a7")
-	)
-	(wire
-		(pts
-			(xy 328.93 113.03) (xy 326.39 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a8ed919-b859-4e5e-a421-c5e230ef08c5")
 	)
 	(wire
 		(pts
@@ -2686,7 +2653,7 @@
 			)
 		)
 	)
-	(global_label "VIDEO_IN"
+	(global_label "SMARTAUDIO"
 		(shape input)
 		(at 326.39 101.6 180)
 		(effects
@@ -2698,28 +2665,6 @@
 		(uuid "43dbcabf-79e5-45df-89f9-88ff6b52ca93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 326.39 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VIDEO_OUT"
-		(shape input)
-		(at 326.39 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44f4508d-07f2-4e6a-98ee-a6235734078f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3093,7 @@
 			)
 		)
 	)
-	(global_label "AUX_RX"
+	(global_label "ELRS_RX"
 		(shape input)
 		(at 41.91 168.91 180)
 		(effects
@@ -3368,7 +3313,7 @@
 			)
 		)
 	)
-	(global_label "AUX_TX"
+	(global_label "ELRS_TX"
 		(shape input)
 		(at 41.91 160.02 180)
 		(effects
@@ -3869,7 +3814,7 @@
 				)
 			)
 		)
-		(property "Value" "AUX_TX"
+		(property "Value" "ELRS_TX"
 			(at 46.99 156.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3943,7 +3888,7 @@
 				)
 			)
 		)
-		(property "Value" "VIDEO_IN"
+		(property "Value" "SMARTAUDIO"
 			(at 331.47 98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4139,80 +4084,6 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "49957663-11dd-4f5b-86c0-b4b898974290")
-		(property "Reference" "J19"
-			(at 331.47 107.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "VIDEO_OUT"
-			(at 331.47 109.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 331.47 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 331.47 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95e3db0e-3817-4108-8361-1aacfbed8ab1")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -4469,7 +4340,7 @@
 				)
 			)
 		)
-		(property "Value" "AUX_RX"
+		(property "Value" "ELRS_RX"
 			(at 46.99 165.31 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -9,6 +9,207 @@
 		(rev "A")
 	)
 	(lib_symbols
+		(symbol "Device:LED"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "LED diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_0_1"
+			(polyline
+				(pts
+					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LED_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 		(symbol "AERIX20:2N7002BK,215"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1464,7 +1665,7 @@
 		)
 		(uuid "067838ec-ea29-4524-85e7-eea0baeb379a")
 	)
-	(text "RGB input / bulk capacitor"
+	(text "Status LED / RGB bulk capacitor"
 		(exclude_from_sim no)
 		(at 263 19 0)
 		(effects
@@ -1655,16 +1856,6 @@
 			(type default)
 		)
 		(uuid "4c7e1c58-dab8-4918-8490-b84a321de3aa")
-	)
-	(wire
-		(pts
-			(xy 311.15 35.56) (xy 307.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50908866-71bf-4eed-aadc-ad66a9ff3796")
 	)
 	(wire
 		(pts
@@ -2028,28 +2219,6 @@
 			)
 		)
 	)
-	(global_label "LED_DATA"
-		(shape input)
-		(at 289.56 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09bb7f9d-f83b-4c18-8c50-bc43d71cbdea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 351.79 218.44 0)
@@ -2388,28 +2557,6 @@
 			)
 		)
 	)
-	(global_label "LED_DATA_OUT"
-		(shape input)
-		(at 307.34 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "637ddc65-c542-4fda-b0b2-406b788fe549")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "BZ_NEG"
 		(shape input)
 		(at 339.09 218.44 180)
@@ -2519,30 +2666,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "5V_BUCK"
-		(shape input)
-		(at 289.56 38.1 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b33eb75-af5d-4812-964f-b43736005fc1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.56 50.0357 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -2794,7 +2917,7 @@
 			)
 		)
 	)
-	(global_label "LED_DATA_OUT"
+	(global_label "LED_DATA"
 		(shape input)
 		(at 51.435 33.655 180)
 		(effects
@@ -4482,125 +4605,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20:WS2812B-2020-V6")
-		(at 298.45 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95fe75bd-4a30-4335-a5ee-a1ca13b42d0e")
-		(property "Reference" "LED1"
-			(at 298.45 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020-V6"
-			(at 298.45 30.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
-			(at 298.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C52917434.pdf"
-			(at 298.45 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 298.45 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "worldsemi"
-			(at 298.45 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "WS2812B-2020-V6"
-			(at 298.45 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C52917434"
-			(at 298.45 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "97e323ea-fe43-45fc-bfce-55e56c540fc6")
-		)
-		(pin "3"
-			(uuid "f6c68194-5954-42e0-923e-eda7ed29cf5a")
-		)
-		(pin "4"
-			(uuid "941d8ea9-b7c7-43ee-9c75-a8869008a36a")
-		)
-		(pin "1"
-			(uuid "8003c864-7db8-455b-b120-29bfa8b6bfc9")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/7968b0c2-9de6-4edc-bde7-47de20b361df"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 121.92 254 90)
 		(unit 1)
@@ -5615,4 +5619,25 @@
 			)
 		)
 	)
+	(global_label "STATUS_LED" (shape input) (at 289.56 36.83 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "d30adc11-38da-4a08-8542-279557f2e0b7"))
+	(wire (pts (xy 289.56 36.83) (xy 294.64 36.83)) (stroke (width 0) (type default)) (uuid "26ceca61-3b27-431b-8c47-8cfe79522c07"))
+	(symbol (lib_id "Device:LED") (at 298.45 36.83 0) (unit 1)
+  (in_bom yes) (on_board yes) (dnp no) (uuid "95fe75bd-4a30-4335-a5ee-a1ca13b42d0e")
+  (property "Reference" "LED1" (at 298.45 31.750 0) (effects (font (size 1 1))))
+  (property "Value" "LTST-C191KRKT" (at 298.45 33.270 0) (effects (font (size 1 1))))
+  (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 298.45 36.83 0) (hide yes) (effects (font (size 1 1))))
+  (property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" (at 298.45 36.83 0) (hide yes) (effects (font (size 1 1))))
+  (pin "1" (uuid "6c353973-7a3b-4577-8c23-e323c596012f")) (pin "2" (uuid "211aa3c3-bd02-42e2-87be-62c8943d5441"))
+  (instances (project "fc-v1" (path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/7968b0c2-9de6-4edc-bde7-47de20b361df" (reference "LED1") (unit 1)))))
+	(wire (pts (xy 302.26 36.83) (xy 312.42 36.83)) (stroke (width 0) (type default)) (uuid "0f3de82e-e7fa-440d-8602-8a6c8cd269ab"))
+	(symbol (lib_id "Device:R") (at 316.23 36.83 90) (unit 1)
+  (in_bom yes) (on_board yes) (dnp no) (uuid "2848e657-fd13-4aa9-ac2d-2294f3d55985")
+  (property "Reference" "R32" (at 316.23 31.750 0) (effects (font (size 1 1))))
+  (property "Value" "330R" (at 316.23 33.270 0) (effects (font (size 1 1))))
+  (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 316.23 36.83 0) (hide yes) (effects (font (size 1 1))))
+  (property "Datasheet" "" (at 316.23 36.83 0) (hide yes) (effects (font (size 1 1))))
+  (pin "1" (uuid "293ee6a6-d400-4ba7-830d-544000c2ccd5")) (pin "2" (uuid "09cd100f-20ef-43f0-bf6e-a80cf48755d7"))
+  (instances (project "fc-v1" (path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/7968b0c2-9de6-4edc-bde7-47de20b361df" (reference "R32") (unit 1)))))
+	(wire (pts (xy 320.04 36.83) (xy 325.12 36.83)) (stroke (width 0) (type default)) (uuid "616a535b-a643-4dec-b281-c6cfadca3197"))
+	(global_label "3V3_MAIN" (shape input) (at 325.12 36.83 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "f26ce902-46db-4235-a0f7-fff12488e954"))
 )

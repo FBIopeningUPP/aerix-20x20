@@ -4107,7 +4107,7 @@
 			)
 		)
 	)
-	(global_label "OSD_SYNC"
+	(global_label "SPARE_GP16"
 		(shape input)
 		(at 61.595 113.665 180)
 		(effects
@@ -4151,7 +4151,7 @@
 			)
 		)
 	)
-	(global_label "ELRS_TX"
+	(global_label "SPARE_GP6"
 		(shape input)
 		(at 61.595 88.265 180)
 		(effects
@@ -4239,7 +4239,7 @@
 			)
 		)
 	)
-	(global_label "OSD_W"
+	(global_label "SMARTAUDIO"
 		(shape input)
 		(at 61.595 108.585 180)
 		(effects
@@ -4463,7 +4463,7 @@
 			)
 		)
 	)
-	(global_label "OSD_EN"
+	(global_label "SPARE_GP15"
 		(shape input)
 		(at 61.595 111.125 180)
 		(effects
@@ -4555,7 +4555,7 @@
 			)
 		)
 	)
-	(global_label "AUX_RX"
+	(global_label "ELRS_RX"
 		(shape input)
 		(at 61.595 144.145 180)
 		(effects
@@ -4667,7 +4667,7 @@
 			)
 		)
 	)
-	(global_label "ELRS_RX"
+	(global_label "SPARE_GP7"
 		(shape input)
 		(at 61.595 90.805 180)
 		(effects
@@ -4689,7 +4689,7 @@
 			)
 		)
 	)
-	(global_label "SPARE_GP2"
+	(global_label "STATUS_LED"
 		(shape input)
 		(at 61.595 78.105 180)
 		(effects
@@ -4711,7 +4711,7 @@
 			)
 		)
 	)
-	(global_label "AUX_TX"
+	(global_label "ELRS_TX"
 		(shape input)
 		(at 61.595 141.605 180)
 		(effects

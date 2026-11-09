@@ -9,1223 +9,6 @@
 		(rev "A")
 	)
 	(lib_symbols
-		(symbol "AERIX20:SM02B-SRSS-TB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM02B-SRSS-TB"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERIX20:CONN-SMD_2P-P1.00_SM02B-SRSS-TB-LF-SN"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM02B-SRSS-TB-LF-SN_C160402.html"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM02B-SRSS-TB(LF)(SN)"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C160402"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM02B-SRSS-TB_0_1"
-				(rectangle
-					(start -8.89 1.27)
-					(end 8.89 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 3.81 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 6.35 3.81 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 3.81 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AERIX20:SM03B-SRSS-TB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM03B-SRSS-TB"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERIX20:CONN-SMD_SM03B-SRSS-TB-LF-SN-P"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM03B-SRSS-TB-LF-SN-P_C160403.html"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM03B-SRSS-TB(LF)(SN)"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C160403"
-				(at 0 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM03B-SRSS-TB_0_1"
-				(rectangle
-					(start -3.81 5.08)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -7.62 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 7.62 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AERIX20:SM04B-SRSS-TB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM04B-SRSS-TB"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERIX20:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.html"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM04B-SRSS-TB(LF)(SN)"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C160404"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM04B-SRSS-TB_0_1"
-				(rectangle
-					(start -11.43 1.27)
-					(end 11.43 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 3.81 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 3.81 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 3.81 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 3.81 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 3.81 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AERIX20:SM06B-SRSS-TB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM06B-SRSS-TB"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERIX20:CONN-SMD_SM06B-SRSS-TB-LF-SN"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM06B-SRSS-TB-LF-SN_C160405.html"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM06B-SRSS-TB(LF)(SN)"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C160405"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM06B-SRSS-TB_0_1"
-				(rectangle
-					(start -3.81 8.89)
-					(end 6.35 -8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 7.62)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 6.35 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 3.81 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -6.35 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -11.43 90)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 11.43 270)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AERIX20:SM08B-SRSS-TB"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at 0 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM08B-SRSS-TB"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AERIX20:CONN-TH_SM08B-SRSS-TB-LF-SN"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM08B-SRSS-TB-LF-SN_C160407.html"
-				(at 0 -24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "JST"
-				(at 0 -26.67 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SM08B-SRSS-TB(LF)(SN)"
-				(at 0 -29.21 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C160407"
-				(at 0 -31.75 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Wire To Board / Wire To Wire Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SM08B-SRSS-TB_0_1"
-				(rectangle
-					(start -3.81 11.43)
-					(end 6.35 -11.43)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 10.16)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 8.89 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 6.35 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 3.81 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 1.27 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -6.35 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -6.35 -8.89 0)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 -13.97 90)
-					(length 2.54)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 13.97 270)
-					(length 2.54)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "AERIX20:TPD2EUSB30ADRTR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3100,28 +1883,6 @@
 		)
 		(uuid "dc13d400-9071-4eb7-873e-e116e2f58956")
 	)
-	(text "ELRS"
-		(exclude_from_sim no)
-		(at 45.72 135.73 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "1c29113d-58f3-4a8a-8f9b-9fa06399148a")
-	)
-	(text "Analog VTX"
-		(exclude_from_sim no)
-		(at 252.73 112.87 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "3bc83f6c-a1b7-40b7-9159-f8c4b33f8e38")
-	)
 	(text "ESC harness"
 		(exclude_from_sim no)
 		(at 150 15 0)
@@ -3132,28 +1893,6 @@
 			(justify left)
 		)
 		(uuid "60aa35fd-1ade-4d87-b074-233effb35262")
-	)
-	(text "Camera"
-		(exclude_from_sim no)
-		(at 177.8 112.87 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "7270cc58-00d0-44f3-9fb2-d0696d47ca5a")
-	)
-	(text "Buzzer"
-		(exclude_from_sim no)
-		(at 177.8 143.35 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "7c571749-a93f-41dc-8658-e3eae872b162")
 	)
 	(text "AUX UART / SWD"
 		(exclude_from_sim no)
@@ -3199,17 +1938,6 @@
 		)
 		(uuid "a0a784a5-0fc6-4f32-9ea6-4c66c4cddd11")
 	)
-	(text "Digital VTX"
-		(exclude_from_sim no)
-		(at 252.73 153.51 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "ae4bd364-cd51-4a66-95d3-0094e70fbf5e")
-	)
 	(text "Camera / analog VTX / buzzer"
 		(exclude_from_sim no)
 		(at 146 81 0)
@@ -3233,68 +1961,12 @@
 		(uuid "dfa5fa04-1449-4387-aca5-1b192d2c0ae3")
 	)
 	(no_connect
-		(at 248.92 111.76)
-		(uuid "110efbc2-8718-41c9-9c56-11b45bf9fe95")
-	)
-	(no_connect
-		(at 189.23 50.8)
-		(uuid "16d8b3cc-4457-481a-9b61-5e4ddf154968")
-	)
-	(no_connect
-		(at 173.99 127)
-		(uuid "2b85807d-afa4-435d-95d5-e07c1f1d645d")
-	)
-	(no_connect
-		(at 41.91 116.84)
-		(uuid "451fce48-1811-4ef2-8588-d4fef7c15017")
-	)
-	(no_connect
 		(at 58.42 60.96)
 		(uuid "4d6114ba-e164-437b-8cbc-f0fc3b96ae7d")
 	)
 	(no_connect
-		(at 248.92 93.98)
-		(uuid "51b2ca80-d58a-4351-8d59-c67528a964ca")
-	)
-	(no_connect
-		(at 199.39 55.88)
-		(uuid "5e5fe5d5-6a62-44eb-b592-2aef0162b9e7")
-	)
-	(no_connect
-		(at 199.39 27.94)
-		(uuid "73c28ea8-edd2-44a1-8c0a-192801b4664e")
-	)
-	(no_connect
-		(at 181.61 95.25)
-		(uuid "7550ea0a-167b-45bd-bf5d-f40fc1b47399")
-	)
-	(no_connect
-		(at 256.54 132.08)
-		(uuid "76696f95-7c9d-4174-ad3e-b93bf4e0b49c")
-	)
-	(no_connect
 		(at 58.42 63.5)
 		(uuid "a1cd5ae4-bf73-42bf-8c01-43736cc37ad7")
-	)
-	(no_connect
-		(at 181.61 110.49)
-		(uuid "a7123a20-2719-420e-8d21-e1ca9deea18b")
-	)
-	(no_connect
-		(at 173.99 139.7)
-		(uuid "d4f278ea-57af-4c66-a176-53a4c0f0d643")
-	)
-	(no_connect
-		(at 41.91 134.62)
-		(uuid "d74ae7ae-fb0b-419d-933e-2ddff3019344")
-	)
-	(no_connect
-		(at 256.54 154.94)
-		(uuid "da59a173-2834-4155-8863-45249ceeacb3")
-	)
-	(no_connect
-		(at 246.38 149.86)
-		(uuid "e1c4a4f4-5ba2-4981-87d8-a36f41df94fa")
 	)
 	(wire
 		(pts
@@ -3305,16 +1977,6 @@
 			(type default)
 		)
 		(uuid "03df2113-a20b-407f-b95c-97609f83478f")
-	)
-	(wire
-		(pts
-			(xy 248.92 106.68) (xy 246.38 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0448ee81-a251-4411-a5a2-79db0de51fc2")
 	)
 	(wire
 		(pts
@@ -3338,26 +2000,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 186.69 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0afca62c-3f89-4b8b-8564-139932a5ee6f")
-	)
-	(wire
-		(pts
-			(xy 99.06 147.32) (xy 96.52 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e635b1c-7549-43ff-a9a8-6532b93f554b")
-	)
-	(wire
-		(pts
 			(xy 328.93 31.75) (xy 326.39 31.75)
 		)
 		(stroke
@@ -3368,26 +2010,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 40.64) (xy 186.69 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16427b7e-b279-4400-88e9-e1899d5a7498")
-	)
-	(wire
-		(pts
-			(xy 41.91 127) (xy 39.37 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "166cff2a-d0cf-46c0-b8b5-cb68d6bb530c")
-	)
-	(wire
-		(pts
 			(xy 248.92 44.45) (xy 246.38 44.45)
 		)
 		(stroke
@@ -3395,16 +2017,6 @@
 			(type default)
 		)
 		(uuid "1c72d89e-c781-4da8-94ff-3d60c3775388")
-	)
-	(wire
-		(pts
-			(xy 41.91 129.54) (xy 39.37 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef6e9e4-876b-43fa-b664-ff564f4a9215")
 	)
 	(wire
 		(pts
@@ -3425,16 +2037,6 @@
 			(type default)
 		)
 		(uuid "25a495f3-fc8d-4fbb-9a78-15e4582f50df")
-	)
-	(wire
-		(pts
-			(xy 41.91 121.92) (xy 39.37 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2892f7a4-1c3a-4fab-bb79-5d1538a6cfb1")
 	)
 	(wire
 		(pts
@@ -3478,16 +2080,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 173.99) (xy 247.65 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378eae10-b8f3-485c-85cf-1dd562932a61")
-	)
-	(wire
-		(pts
 			(xy 90.17 185.42) (xy 87.63 185.42)
 		)
 		(stroke
@@ -3495,26 +2087,6 @@
 			(type default)
 		)
 		(uuid "382cd55f-7afe-4c56-948e-119e4b9d27cf")
-	)
-	(wire
-		(pts
-			(xy 171.45 100.33) (xy 168.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0e4738-f6b4-4f73-a186-c12841a3732d")
-	)
-	(wire
-		(pts
-			(xy 189.23 45.72) (xy 186.69 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c1d2ff9-e98d-47b1-afea-f7931b201b48")
 	)
 	(wire
 		(pts
@@ -3545,6 +2117,16 @@
 			(type default)
 		)
 		(uuid "42648892-3544-45c7-8ed8-f7c136437703")
+	)
+	(wire
+		(pts
+			(xy 361.95 160.655) (xy 359.41 160.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4264a495-4177-4f22-82fc-6a3d6688ba9f")
 	)
 	(wire
 		(pts
@@ -3598,26 +2180,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 99.06) (xy 246.38 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5908574e-ba5a-46a5-9b74-2b8ad7b3c4e8")
-	)
-	(wire
-		(pts
-			(xy 99.06 127) (xy 96.52 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fefcea9-1a22-4f24-8b90-7dbd4c3c908e")
-	)
-	(wire
-		(pts
 			(xy 328.93 158.75) (xy 326.39 158.75)
 		)
 		(stroke
@@ -3628,13 +2190,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 33.02) (xy 186.69 33.02)
+			(xy 361.95 169.545) (xy 359.41 169.545)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67eec2a9-77d7-495b-ba6a-47e6078ce8c1")
+		(uuid "66e67ff4-3c03-4b81-9db9-6d354be16d1e")
 	)
 	(wire
 		(pts
@@ -3645,16 +2207,6 @@
 			(type default)
 		)
 		(uuid "69423f20-df6c-494b-bf9d-9acb0cc42d32")
-	)
-	(wire
-		(pts
-			(xy 173.99 132.08) (xy 171.45 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed7c836-3e40-4dc5-a19a-01392809747a")
 	)
 	(wire
 		(pts
@@ -3678,26 +2230,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 102.87) (xy 168.91 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7011d2-7e4c-4061-a83d-b0d7fa89abec")
-	)
-	(wire
-		(pts
-			(xy 248.92 104.14) (xy 246.38 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f2d4883-0319-4a57-b32e-acf01c59fdbd")
-	)
-	(wire
-		(pts
 			(xy 105.41 45.72) (xy 102.87 45.72)
 		)
 		(stroke
@@ -3705,16 +2237,6 @@
 			(type default)
 		)
 		(uuid "7ff4ed29-debf-4052-b7e1-e1239091ae82")
-	)
-	(wire
-		(pts
-			(xy 246.38 137.16) (xy 243.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "863b7738-0158-4fe7-8bbe-be2835a34559")
 	)
 	(wire
 		(pts
@@ -3748,16 +2270,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 124.46) (xy 39.37 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "907c0caf-d06c-4a21-9b16-c3d677d8f584")
-	)
-	(wire
-		(pts
 			(xy 44.45 160.02) (xy 41.91 160.02)
 		)
 		(stroke
@@ -3778,16 +2290,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 116.84) (xy 96.52 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3e221f6-2ba6-46bc-a615-912b310cc346")
-	)
-	(wire
-		(pts
 			(xy 43.18 71.12) (xy 43.18 73.66)
 		)
 		(stroke
@@ -3795,36 +2297,6 @@
 			(type default)
 		)
 		(uuid "a3f06481-46dd-4fc8-b3f5-6a8448d0da3b")
-	)
-	(wire
-		(pts
-			(xy 189.23 48.26) (xy 186.69 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a84b796d-ab14-421d-af2b-1bf9123c0eb1")
-	)
-	(wire
-		(pts
-			(xy 99.06 137.16) (xy 96.52 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9f9730c-9b5c-4755-8392-e9510ddc46c4")
-	)
-	(wire
-		(pts
-			(xy 248.92 101.6) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac28c09d-1b77-4bfc-9328-712859aa3501")
 	)
 	(wire
 		(pts
@@ -3848,16 +2320,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 142.24) (xy 243.84 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd7f758-6673-4bb0-8c74-1cbb10d30a2c")
-	)
-	(wire
-		(pts
 			(xy 105.41 35.56) (xy 102.87 35.56)
 		)
 		(stroke
@@ -3865,16 +2327,6 @@
 			(type default)
 		)
 		(uuid "d0c9394a-1d66-4c40-b615-bad8da9f7074")
-	)
-	(wire
-		(pts
-			(xy 246.38 147.32) (xy 243.84 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17e0eb6-4174-4063-b9a2-bcadb5ae1be1")
 	)
 	(wire
 		(pts
@@ -3888,16 +2340,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 35.56) (xy 186.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d8219e-104d-478d-ac1e-d082761129ce")
-	)
-	(wire
-		(pts
 			(xy 44.45 186.69) (xy 41.91 186.69)
 		)
 		(stroke
@@ -3905,26 +2347,6 @@
 			(type default)
 		)
 		(uuid "d771e4de-0de8-47f4-9f26-aa4262afdebe")
-	)
-	(wire
-		(pts
-			(xy 246.38 144.78) (xy 243.84 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7abe3c6-1797-484f-b9e5-565443fc11e9")
-	)
-	(wire
-		(pts
-			(xy 173.99 134.62) (xy 171.45 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da0bab56-fedd-4ed8-b736-72db71771f7f")
 	)
 	(wire
 		(pts
@@ -3998,16 +2420,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 105.41) (xy 168.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5296c2-7708-47f2-b609-d9dff618bfd0")
-	)
-	(wire
-		(pts
 			(xy 328.93 177.8) (xy 326.39 177.8)
 		)
 		(stroke
@@ -4015,16 +2427,6 @@
 			(type default)
 		)
 		(uuid "eb40c4a9-7aea-4ced-9595-d9abb6225f0d")
-	)
-	(wire
-		(pts
-			(xy 246.38 139.7) (xy 243.84 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec1f5b20-5aec-4456-a777-f95ccaa10891")
 	)
 	(wire
 		(pts
@@ -4045,16 +2447,6 @@
 			(type default)
 		)
 		(uuid "f109fbb0-a532-482d-85d6-85dd9b370231")
-	)
-	(wire
-		(pts
-			(xy 189.23 43.18) (xy 186.69 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fade5533-afab-408a-acf4-e9dab59d89be")
 	)
 	(label "CC1"
 		(at 102.87 25.4 180)
@@ -4096,72 +2488,6 @@
 		)
 		(uuid "b23f12bf-7c05-4b3b-8ad3-13cc1cd5ea92")
 	)
-	(global_label "VTX_PWR"
-		(shape input)
-		(at 247.65 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "00dae6e3-fda3-44f6-a32e-7412fca6d78c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.65 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 186.69 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03211fcc-044c-406f-8a7b-d5cd21a00b66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "ELRS_RX"
-		(shape input)
-		(at 39.37 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0424ca00-4a35-44f7-b77a-946e17ad51f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 87.63 167.64 180)
@@ -4174,28 +2500,6 @@
 		(uuid "08c74c61-3f56-4044-924c-3b3a04ede5bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.63 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "3V3_MAIN"
-		(shape input)
-		(at 96.52 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "099a9971-1d49-47c6-94f8-f0bae033b3a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,28 +2576,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 246.38 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1be18bda-cfe7-4bd4-b2de-fe19042be9b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "3V3_MAIN"
 		(shape input)
 		(at 87.63 194.31 180)
@@ -4316,50 +2598,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 96.52 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "23a3d023-ee55-4894-8bb0-bba2180a1a8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "M3"
-		(shape input)
-		(at 186.69 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28a2471d-5204-475d-8b59-28e579ce52c1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "USB_N"
 		(shape input)
 		(at 60.96 45.72 0)
@@ -4372,28 +2610,6 @@
 		(uuid "2e6b491b-ad63-458c-92d6-30f49498a02e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.96 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "M1"
-		(shape input)
-		(at 186.69 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fb89b81-6a91-4b8a-8094-8b17ffb1da15")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,28 +2654,6 @@
 		(uuid "3e47ba9b-849e-482e-a498-6015bf118ddf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.22 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "ESC_TLM"
-		(shape input)
-		(at 186.69 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f38c693-f225-4dd4-9932-31290756b89e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,28 +2796,6 @@
 			)
 		)
 	)
-	(global_label "M4"
-		(shape input)
-		(at 186.69 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4b01b59e-53e4-4d95-88a5-3c8c3cae7a1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "VTX_TX"
 		(shape input)
 		(at 326.39 158.75 180)
@@ -4658,50 +2830,6 @@
 		(uuid "4d126f76-df50-426c-90d2-17ed922acaf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.98 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "5V_BUCK"
-		(shape input)
-		(at 39.37 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d4a5027-86a7-4c83-b825-91a2c8d7d314")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VTX_TX"
-		(shape input)
-		(at 246.38 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51f602e3-0b3d-46ef-a73d-9835527cb752")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,28 +2908,6 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 186.69 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67c70ab9-8c42-48dd-b950-c1509ce16511")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
 		(at 246.38 44.45 180)
 		(effects
 			(font
@@ -4856,6 +2962,28 @@
 		(uuid "73f723ab-4908-42ad-89aa-41fc3b35c326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 246.38 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "5V_BUCK"
+		(shape input)
+		(at 359.41 160.655 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "774177e8-db5b-4679-8325-f2a2e789fbb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.41 160.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4998,28 +3126,6 @@
 			)
 		)
 	)
-	(global_label "M2"
-		(shape input)
-		(at 186.69 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "947244a7-919d-4876-a2c5-15ee4cd0d390")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "USB_N"
 		(shape input)
 		(at 102.87 55.88 180)
@@ -5032,50 +3138,6 @@
 		(uuid "94aec401-afde-4859-a940-0ca772fb346a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.87 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 39.37 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96439b0f-381e-44a3-a6de-249c0c0447a5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 96.52 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97bc489c-dfe2-4e57-8c47-0c86cc5ac086")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5120,50 +3182,6 @@
 		(uuid "a048d292-cc26-4dd0-97a7-2ae3ae4a7090")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "5V_BUCK"
-		(shape input)
-		(at 246.38 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4149969-4dd8-4e7e-8119-88119fd53e84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "BZ_NEG"
-		(shape input)
-		(at 171.45 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a501ebc6-0742-42f9-aa86-69ec1b4dcda4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5240,62 +3258,18 @@
 			)
 		)
 	)
-	(global_label "VTX_TX"
-		(shape input)
-		(at 243.84 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "adca30f4-5e0f-4be5-8758-aaada729978e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
-		(at 168.91 102.87 180)
+		(at 359.41 169.545 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b6f10514-57ac-420d-9691-179423370ff6")
+		(uuid "bb925999-2c74-4596-bcbc-cc596a4710f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VTX_PWR"
-		(shape input)
-		(at 243.84 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bdb1044a-15b2-40be-889a-760404212979")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 137.16 0)
+			(at 359.41 169.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,28 +3292,6 @@
 		(uuid "be5483ae-a214-4610-9a95-fe157b418c43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.91 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VIDEO_OUT"
-		(shape input)
-		(at 246.38 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c95290c1-10ad-4fb5-bf4f-1f2101741add")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,50 +3368,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SDA"
-		(shape input)
-		(at 96.52 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3a292f0-0183-4139-800a-9b9d6bb99ec3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "ELRS_TX"
-		(shape input)
-		(at 39.37 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d527853f-b69f-42f8-a17b-22f8db78c309")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.37 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "AUX_TX"
 		(shape input)
 		(at 41.91 160.02 180)
@@ -5526,28 +3434,6 @@
 			)
 		)
 	)
-	(global_label "5V_BUCK"
-		(shape input)
-		(at 168.91 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d85474ab-855e-43f0-bff1-5308650ada62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "RUN"
 		(shape input)
 		(at 113.03 163.83 180)
@@ -5570,28 +3456,6 @@
 			)
 		)
 	)
-	(global_label "5V_BUCK"
-		(shape input)
-		(at 171.45 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de98940b-46a9-4ded-b7e2-8e0e5ff5983c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 115.57 25.4 0)
@@ -5604,94 +3468,6 @@
 		(uuid "dfed976b-959c-467e-b872-a274d6285df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.57 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VIDEO_IN"
-		(shape input)
-		(at 168.91 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eaf2d686-0b57-4d95-8bde-08c2c88ba2ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "VTX_RX"
-		(shape input)
-		(at 243.84 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f04ed8db-4972-4386-9e8c-2511c188109f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 243.84 139.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1acfa89-7330-4576-970a-fdba98d8f52a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 243.84 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f6e9c194-ad69-4048-b507-5ed149148f4a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5999,107 +3775,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20:SM08B-SRSS-TB")
-		(at 195.58 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e8b9b27-ff33-4359-86cb-d2cce7d808cf")
-		(property "Reference" "P1"
-			(at 209.58 32.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SM08B-SRSS-TB"
-			(at 209.58 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:CONN-TH_SM08B-SRSS-TB-LF-SN"
-			(at 209.58 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba0dbcee-fe6b-41f3-a47c-5e0d17b8819a")
-		)
-		(pin "2"
-			(uuid "9bf03690-25b9-45af-b39a-e8421293b5fd")
-		)
-		(pin "3"
-			(uuid "27fb4d5d-f02b-46b1-9e59-24968a951b92")
-		)
-		(pin "4"
-			(uuid "b3242a72-0237-479a-baf6-191073153c37")
-		)
-		(pin "5"
-			(uuid "11196410-e0a3-4505-a2ca-48f4ad22d99d")
-		)
-		(pin "6"
-			(uuid "c5e7c661-b431-4bd4-878d-764bafdd3629")
-		)
-		(pin "7"
-			(uuid "d479f735-7e0d-4391-95b5-e14262be843d")
-		)
-		(pin "8"
-			(uuid "30168128-7138-407c-8207-61b37ea0284a")
-		)
-		(pin "9"
-			(uuid "0c87c8ea-0310-44d5-99b7-be9289175ddb")
-		)
-		(pin "10"
-			(uuid "accc5d67-c2f2-43c1-b9dd-d5bebb440301")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
 		(at 331.47 147.32 0)
 		(unit 1)
@@ -6322,169 +3997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 101.6 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32bdecea-9713-42ee-92f4-d76b845761c2")
-		(property "Reference" "J6"
-			(at 101.6 121.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "I2C_SDA"
-			(at 101.6 123.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 101.6 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02f4c17a-88b7-4ee4-967b-98a85ac35ff6")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERIX20:SM04B-SRSS-TB")
-		(at 45.72 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "395b7398-8121-4746-a898-546ea400f3f7")
-		(property "Reference" "CN1"
-			(at 59.72 116.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SM04B-SRSS-TB"
-			(at 59.72 118.11 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
-			(at 59.72 125.73 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c9b0028-66dd-4cfd-b305-4de08ea0c51a")
-		)
-		(pin "2"
-			(uuid "a707a037-911c-422b-8c39-a921e80cf819")
-		)
-		(pin "3"
-			(uuid "c17eccb9-e3c9-4608-aca2-3614cfa94351")
-		)
-		(pin "4"
-			(uuid "cc0757be-6c5d-4c3b-ba66-02cb464ac5b3")
-		)
-		(pin "5"
-			(uuid "7a733b1d-4f80-4814-9133-11fb83574d72")
-		)
-		(pin "6"
-			(uuid "97082c10-048b-4f6b-b2cc-ea8cf758f7be")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
 		(at 92.71 158.75 0)
 		(unit 1)
@@ -6633,80 +4145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20_Pads:WirePad_2.0x2.5mm")
-		(at 252.73 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48e19a2f-e3b7-4ef8-890e-3255c4af2d25")
-		(property "Reference" "J13"
-			(at 252.73 168.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "VTX_PWR"
-			(at 252.73 170.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20_Pads:WirePad_2.0x2.5mm"
-			(at 252.73 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e325931c-d77d-4492-8377-01ead70b18d6")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
 		(at 331.47 113.03 0)
 		(unit 1)
@@ -6775,6 +4213,80 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
+		(at 364.49 160.655 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53a7276d-1155-4547-bd4c-273dcfd88330")
+		(property "Reference" "J13"
+			(at 364.49 155.535 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "5V_BUCK"
+			(at 364.49 157.055 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
+			(at 364.49 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c54e8aac-0719-46ad-a386-30dc3d3ab126")
+		)
+		(instances
+			(project "fc-v1"
+				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -6857,80 +4369,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 101.6 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63aab398-171a-4a45-a878-232c728f3263")
-		(property "Reference" "J5"
-			(at 101.6 111.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "I2C_SCL"
-			(at 101.6 113.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 101.6 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5da37f14-498b-469b-98c4-7232f3dd295f")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20:TPD2EUSB30ADRTR")
 		(at 109.22 73.66 0)
 		(unit 1)
@@ -7005,80 +4443,6 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 101.6 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a033cf3-4996-4db0-8a4f-f220768c1b9a")
-		(property "Reference" "J8"
-			(at 101.6 142.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 143.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 101.6 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2e78da2-aca7-46a4-80ee-a2cc0b031049")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7304,6 +4668,80 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
+		(at 364.49 169.545 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "743988a1-33dd-4b45-9e7f-c72beac7ffa4")
+		(property "Reference" "J26"
+			(at 364.49 164.425 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 364.49 165.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
+			(at 364.49 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 364.49 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 364.49 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "558db214-632b-4a2c-9cbf-1e8d75703d9b")
+		)
+		(instances
+			(project "fc-v1"
+				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -7808,95 +5246,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20:SM04B-SRSS-TB")
-		(at 252.73 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9513bb97-2967-4081-8496-8aaa26ff41df")
-		(property "Reference" "CN2"
-			(at 266.73 93.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SM04B-SRSS-TB"
-			(at 266.73 95.25 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
-			(at 266.73 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf030186-06a1-4915-a404-9df058fec309")
-		)
-		(pin "2"
-			(uuid "0cb83916-422f-48f5-9ad5-3a838f3afb24")
-		)
-		(pin "3"
-			(uuid "f86a9000-a9db-4ac0-a321-8bd6f2444a61")
-		)
-		(pin "4"
-			(uuid "80e496d9-154b-47ad-8905-c3e651c55b35")
-		)
-		(pin "5"
-			(uuid "762f2310-3faf-4503-8d00-c9b0e0b7208c")
-		)
-		(pin "6"
-			(uuid "c1254255-c976-44b0-92cc-5c2b9556b614")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "CN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20_Pads:WirePad_2.0x2.5mm")
 		(at 251.46 34.29 0)
 		(unit 1)
@@ -8193,89 +5542,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20:SM02B-SRSS-TB")
-		(at 177.8 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7adbe34-03d2-435f-8c78-a056b9b4c279")
-		(property "Reference" "CN3"
-			(at 191.8 124.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SM02B-SRSS-TB"
-			(at 191.8 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:CONN-SMD_2P-P1.00_SM02B-SRSS-TB-LF-SN"
-			(at 191.8 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "490c6021-87e4-4507-ae4d-938e34d99964")
-		)
-		(pin "2"
-			(uuid "34d7836d-9dc2-4edb-9443-7d78abe01df9")
-		)
-		(pin "3"
-			(uuid "60447063-5909-4be6-892a-f901bc68e147")
-		)
-		(pin "4"
-			(uuid "b2aeaa5c-b0f6-4fb7-96ee-3eb33a55cb11")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "CN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
 		(at 92.71 194.31 0)
 		(unit 1)
@@ -8421,92 +5687,6 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERIX20:SM03B-SRSS-TB")
-		(at 177.8 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc843323-057f-483a-8919-f2d1ef8d9edc")
-		(property "Reference" "U11"
-			(at 191.8 93.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 191.8 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:CONN-SMD_SM03B-SRSS-TB-LF-SN-P"
-			(at 191.8 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "942eedd3-5195-48cd-8bcf-2d129efc3f58")
-		)
-		(pin "2"
-			(uuid "abaf7fbe-ad02-4589-a6b3-969fb1410fee")
-		)
-		(pin "3"
-			(uuid "c7fb22a6-6daf-4151-9dfc-add2474cd636")
-		)
-		(pin "4"
-			(uuid "0922ac43-7897-486e-9310-13ec4fc3fc69")
-		)
-		(pin "5"
-			(uuid "96686788-9063-430d-9f35-85c6efb698e4")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -8661,101 +5841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20:SM06B-SRSS-TB")
-		(at 252.73 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0c61612-5b0d-4718-82fd-0d280ed45041")
-		(property "Reference" "U12"
-			(at 266.73 134.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "SM06B-SRSS-TB"
-			(at 266.73 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20:CONN-SMD_SM06B-SRSS-TB-LF-SN"
-			(at 266.73 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 252.73 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e18fc6c-0b82-4892-a05f-f3d0a14672f0")
-		)
-		(pin "2"
-			(uuid "6db2cffa-ed71-4aa7-bf27-4ca321e7814c")
-		)
-		(pin "3"
-			(uuid "2caf81b7-89c3-44de-a948-ffcfd22bee64")
-		)
-		(pin "4"
-			(uuid "25ef87d5-6c17-44e5-8f8d-8ef86f32cbb5")
-		)
-		(pin "5"
-			(uuid "b079c933-37b4-4e72-ac6b-4cc142b7abc9")
-		)
-		(pin "6"
-			(uuid "730a0245-c2e9-4d7c-9942-2bdd04cba9e6")
-		)
-		(pin "7"
-			(uuid "2211af71-be9b-4043-ba1f-983b73f99e67")
-		)
-		(pin "8"
-			(uuid "cb69f2ed-3e1a-44e0-9b49-be36a4f81cdd")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
 		(at 331.47 66.04 0)
 		(unit 1)
@@ -8898,80 +5983,6 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 101.6 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f4a25305-e782-456d-aab1-307968e4e2d3")
-		(property "Reference" "J7"
-			(at 101.6 132.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "3V3_MAIN"
-			(at 101.6 133.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 101.6 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d61111e0-7a4c-4477-9ea4-a45bc57e0540")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
-					(reference "J7")
 					(unit 1)
 				)
 			)

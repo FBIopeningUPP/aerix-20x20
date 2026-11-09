@@ -1,4 +1,4 @@
-﻿(module easyeda2kicad:LGA-24_L3.0-W3.0-P0.40-TL (layer F.Cu) (tedit 5DC5F6A4)
+(module easyeda2kicad:LGA-24_L3.0-W3.0-P0.40-TL (layer F.Cu) (tedit 5DC5F6A4)
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -5.427) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))

@@ -1,4 +1,4 @@
-﻿(module easyeda2kicad:IND-SMD_L6.0-W5.7_SRP5050FA-220M1 (layer F.Cu) (tedit 5DC5F6A4)
+(module easyeda2kicad:IND-SMD_L6.0-W5.7_SRP5050FA-220M1 (layer F.Cu) (tedit 5DC5F6A4)
 	(attr through_hole)
 	(fp_text reference REF** (at 0.000 -4.000) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))

@@ -1,4 +1,4 @@
-﻿(module easyeda2kicad:QFN-60_L7.0-W7.0-P0.40-TL-EP3.4 (layer F.Cu) (tedit 5DC5F6A4)
+(module easyeda2kicad:QFN-60_L7.0-W7.0-P0.40-TL-EP3.4 (layer F.Cu) (tedit 5DC5F6A4)
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -7.575) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))

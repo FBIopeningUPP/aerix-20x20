@@ -1,4 +1,4 @@
-﻿(module easyeda2kicad:CONN-SMD_SM03B-SRSS-TB-LF-SN-P (layer F.Cu) (tedit 5DC5F6A4)
+(module easyeda2kicad:CONN-SMD_SM03B-SRSS-TB-LF-SN-P (layer F.Cu) (tedit 5DC5F6A4)
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -5.938) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))

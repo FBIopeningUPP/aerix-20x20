@@ -1,4 +1,4 @@
-﻿(module easyeda2kicad:WSON-8_L6.0-W5.0-P1.27-BL-EP (layer F.Cu) (tedit 5DC5F6A4)
+(module easyeda2kicad:WSON-8_L6.0-W5.0-P1.27-BL-EP (layer F.Cu) (tedit 5DC5F6A4)
 	(attr smd)
 	(fp_text reference REF** (at 0.000 -7.013) (layer F.SilkS)
 		(effects (font (size 1 1) (thickness 0.15)))

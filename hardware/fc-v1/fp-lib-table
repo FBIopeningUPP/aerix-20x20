@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "AERIX20")(type "KiCad")(uri "${KIPRJMOD}/../../libs/AERIX20.pretty")(options "")(descr "AERIX-20 project footprints"))
+  (lib (name "AERIX20_Pads")(type "KiCad")(uri "${KIPRJMOD}/../../libs/AERIX20_Pads.pretty")(options "")(descr "AERIX-20 solder and test pad footprints"))
+)

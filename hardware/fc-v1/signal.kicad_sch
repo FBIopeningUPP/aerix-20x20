@@ -9,7 +9,6 @@
 		(rev "A")
 	)
 	(lib_symbols
-
 		(symbol "AERIX20:SM02B-SRSS-TB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3459,7 +3458,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 27.94) (xy 115.57 27.94)
+			(xy 113.03 25.4) (xy 115.57 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3639,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 58.42) (xy 115.57 58.42)
+			(xy 113.03 55.88) (xy 115.57 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 48.26) (xy 102.87 48.26)
+			(xy 105.41 45.72) (xy 102.87 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3769,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 38.1) (xy 115.57 38.1)
+			(xy 113.03 35.56) (xy 115.57 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 48.26) (xy 115.57 48.26)
+			(xy 113.03 45.72) (xy 115.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3859,7 +3858,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 38.1) (xy 102.87 38.1)
+			(xy 105.41 35.56) (xy 102.87 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +3928,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 102.87 58.42)
+			(xy 105.41 55.88) (xy 102.87 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3939,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 27.94) (xy 102.87 27.94)
+			(xy 105.41 25.4) (xy 102.87 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4009,6 +4008,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 177.8) (xy 326.39 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb40c4a9-7aea-4ced-9595-d9abb6225f0d")
+	)
+	(wire
+		(pts
 			(xy 246.38 139.7) (xy 243.84 139.7)
 		)
 		(stroke
@@ -4048,7 +4057,7 @@
 		(uuid "fade5533-afab-408a-acf4-e9dab59d89be")
 	)
 	(label "CC1"
-		(at 102.87 27.94 180)
+		(at 102.87 25.4 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4068,7 +4077,7 @@
 		(uuid "4c11afba-9a07-4fee-a839-b77a5601e613")
 	)
 	(label "CC2"
-		(at 102.87 38.1 180)
+		(at 102.87 35.56 180)
 		(effects
 			(font
 				(size 1 1)
@@ -4231,6 +4240,28 @@
 		(uuid "13c9db25-10e7-49df-8d20-594933157376")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 326.39 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "LED_OUT"
+		(shape input)
+		(at 326.39 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "144a64d1-1fc5-497d-8448-1e3830ebf694")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,7 +4560,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 115.57 38.1 0)
+		(at 115.57 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4538,7 +4569,7 @@
 		)
 		(uuid "49399d1c-58ed-4f55-bd02-a66a14f76a3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 38.1 0)
+			(at 115.57 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,7 +4758,7 @@
 	)
 	(global_label "USB_MCU_P"
 		(shape input)
-		(at 115.57 48.26 0)
+		(at 115.57 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4736,7 +4767,7 @@
 		)
 		(uuid "637ce634-3ae2-4d58-a6bc-21bd24c1b4a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 48.26 0)
+			(at 115.57 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4991,7 +5022,7 @@
 	)
 	(global_label "USB_N"
 		(shape input)
-		(at 102.87 58.42 180)
+		(at 102.87 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5000,7 +5031,7 @@
 		)
 		(uuid "94aec401-afde-4859-a940-0ca772fb346a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 58.42 0)
+			(at 102.87 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5079,7 +5110,7 @@
 	)
 	(global_label "USB_P"
 		(shape input)
-		(at 102.87 48.26 180)
+		(at 102.87 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5088,7 +5119,7 @@
 		)
 		(uuid "a048d292-cc26-4dd0-97a7-2ae3ae4a7090")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.87 48.26 0)
+			(at 102.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +5506,7 @@
 	)
 	(global_label "USB_MCU_N"
 		(shape input)
-		(at 115.57 58.42 0)
+		(at 115.57 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5484,7 +5515,7 @@
 		)
 		(uuid "d820b265-2ae9-4f0c-8299-d68f5b0a8cd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 58.42 0)
+			(at 115.57 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5563,7 +5594,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 115.57 27.94 0)
+		(at 115.57 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5572,7 +5603,7 @@
 		)
 		(uuid "dfed976b-959c-467e-b872-a274d6285df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 27.94 0)
+			(at 115.57 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7203,7 +7234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 48.26 90)
+		(at 109.22 45.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7213,7 +7244,7 @@
 		(dnp no)
 		(uuid "73147386-e8ab-461a-bb3d-fecf28fcc163")
 		(property "Reference" "R23"
-			(at 109.22 43.14 90)
+			(at 109.22 40.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7223,7 +7254,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 109.22 44.66 90)
+			(at 109.22 42.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7233,7 +7264,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 48.26 90)
+			(at 109.22 45.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7244,7 +7275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 48.26 0)
+			(at 109.22 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7254,7 +7285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 48.26 0)
+			(at 109.22 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7701,7 +7732,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 27.94 90)
+		(at 109.22 25.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7711,7 +7742,7 @@
 		(dnp no)
 		(uuid "8f14da52-53ec-4ffd-9ad6-8d14d959d81f")
 		(property "Reference" "R21"
-			(at 109.22 22.82 90)
+			(at 109.22 20.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7721,7 +7752,7 @@
 			)
 		)
 		(property "Value" "5.1k 1%"
-			(at 109.22 24.34 90)
+			(at 109.22 21.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7731,7 +7762,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 27.94 90)
+			(at 109.22 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7742,7 +7773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 27.94 0)
+			(at 109.22 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7752,7 +7783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 27.94 0)
+			(at 109.22 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8320,7 +8351,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 58.42 90)
+		(at 109.22 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8330,7 +8361,7 @@
 		(dnp no)
 		(uuid "bcb58686-62ed-4ce4-8313-417c606b6737")
 		(property "Reference" "R24"
-			(at 109.22 53.3 90)
+			(at 109.22 50.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8340,7 +8371,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 109.22 54.82 90)
+			(at 109.22 52.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8350,7 +8381,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 58.42 90)
+			(at 109.22 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,7 +8392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 58.42 0)
+			(at 109.22 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8371,7 +8402,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 58.42 0)
+			(at 109.22 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8550,6 +8581,80 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
+		(at 331.47 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7ae5f28-23d4-4911-bb44-42dda641642f")
+		(property "Reference" "J25"
+			(at 331.47 172.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "LED_OUT"
+			(at 331.47 174.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
+			(at 331.47 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 331.47 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36bfe4ef-9cab-4eca-a11b-8a12e117dab4")
+		)
+		(instances
+			(project "fc-v1"
+				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36"
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -8874,7 +8979,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 38.1 90)
+		(at 109.22 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8884,7 +8989,7 @@
 		(dnp no)
 		(uuid "f913d8db-0e2c-40b6-9eeb-2e679049c7a5")
 		(property "Reference" "R22"
-			(at 109.22 32.98 90)
+			(at 109.22 30.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8894,7 +8999,7 @@
 			)
 		)
 		(property "Value" "5.1k 1%"
-			(at 109.22 34.5 90)
+			(at 109.22 31.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8904,7 +9009,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 38.1 90)
+			(at 109.22 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,7 +9020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 38.1 0)
+			(at 109.22 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8925,7 +9030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 38.1 0)
+			(at 109.22 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8949,10 +9054,4 @@
 			)
 		)
 	)
-(symbol (lib_id "AERIX20_Pads:WirePad_1.5x2.0mm") (at 331.47 177.80 0) (unit 1)
-          (exclude_from_sim yes) (in_bom no) (on_board yes) (dnp no)
-          (uuid "d7ae5f28-23d4-4911-bb44-42dda641642f") (property "Reference" "J25" (at 331.47 172.68 0) (effects (font (size 1 1)) )) (property "Value" "LED_OUT" (at 331.47 174.20 0) (effects (font (size 1 1)) )) (property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm" (at 331.47 177.80 0) (effects (font (size 1 1)) (hide yes))) (pin "1" (uuid "36bfe4ef-9cab-4eca-a11b-8a12e117dab4"))
-          (instances (project "fc-v1" (path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36" (reference "J25") (unit 1)))))
-(wire (pts (xy 328.93 177.80) (xy 326.39 177.80)) (stroke (width 0) (type default)) (uuid "eb40c4a9-7aea-4ced-9595-d9abb6225f0d"))
-(global_label "LED_OUT" (shape input) (at 326.39 177.80 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "144a64d1-1fc5-497d-8448-1e3830ebf694"))
 )

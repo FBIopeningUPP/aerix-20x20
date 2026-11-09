@@ -2527,7 +2527,6 @@
 		)
 		(uuid "13dca9e3-1044-49f6-9db7-7996372e85fd")
 	)
-	
 	(wire
 		(pts
 			(xy 31.75 264.16) (xy 29.21 264.16)
@@ -2538,8 +2537,6 @@
 		)
 		(uuid "18097655-a792-4dae-9694-0444f1894f9f")
 	)
-	
-	
 	(wire
 		(pts
 			(xy 118.11 264.16) (xy 115.57 264.16)
@@ -2560,7 +2557,6 @@
 		)
 		(uuid "273ac185-4d61-4fdb-959a-e84b609dc8bf")
 	)
-	
 	(wire
 		(pts
 			(xy 208.915 33.655) (xy 211.455 33.655)
@@ -2611,7 +2607,6 @@
 		)
 		(uuid "371ce362-df3c-413a-88be-84879056aa84")
 	)
-	
 	(wire
 		(pts
 			(xy 118.11 254) (xy 115.57 254)
@@ -2762,7 +2757,6 @@
 		)
 		(uuid "69aef0dc-c6e1-4e83-bacd-f8887e9f0edf")
 	)
-	
 	(wire
 		(pts
 			(xy 46.99 127) (xy 44.45 127)
@@ -2893,7 +2887,6 @@
 		)
 		(uuid "87d069df-7082-4af5-8088-5877a97b0cf6")
 	)
-	
 	(wire
 		(pts
 			(xy 111.76 88.9) (xy 109.22 88.9)
@@ -2904,7 +2897,6 @@
 		)
 		(uuid "8b5349a2-71fc-467d-95b1-db1621c0b05f")
 	)
-	
 	(wire
 		(pts
 			(xy 209.55 146.05) (xy 207.01 146.05)
@@ -2925,7 +2917,6 @@
 		)
 		(uuid "900c240b-c058-4c71-ac02-547b1516a010")
 	)
-	
 	(wire
 		(pts
 			(xy 124.46 107.95) (xy 127 107.95)
@@ -3006,7 +2997,6 @@
 		)
 		(uuid "a540a30c-2b4a-4951-bd6e-f1812a341a34")
 	)
-	
 	(wire
 		(pts
 			(xy 186.055 36.195) (xy 186.055 33.655)
@@ -3027,7 +3017,6 @@
 		)
 		(uuid "aab01d88-731f-4243-9cf7-51624c6e5d98")
 	)
-	
 	(wire
 		(pts
 			(xy 31.75 254) (xy 29.21 254)
@@ -3068,7 +3057,6 @@
 		)
 		(uuid "b282beb8-1e4a-4d57-91d1-29c8c48e1c07")
 	)
-	
 	(wire
 		(pts
 			(xy 223.52 88.9) (xy 226.06 88.9)
@@ -3119,7 +3107,6 @@
 		)
 		(uuid "c495aae6-fb53-4d89-8239-de71d4797ade")
 	)
-	
 	(wire
 		(pts
 			(xy 317.5 54.61) (xy 314.96 54.61)
@@ -3150,7 +3137,6 @@
 		)
 		(uuid "cee5ad44-2cac-4b66-8bb2-7deaae7d49e1")
 	)
-	
 	(wire
 		(pts
 			(xy 124.46 153.67) (xy 127 153.67)
@@ -3511,8 +3497,6 @@
 		)
 		(uuid "c0b08dfd-8429-42ad-926a-f3564ab31547")
 	)
-	
-	
 	(label "VIDEO_FB"
 		(at 200.66 86.36 180)
 		(effects
@@ -3641,7 +3625,6 @@
 			)
 		)
 	)
-	
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 351.79 218.44 0)
@@ -3730,7 +3713,6 @@
 			)
 		)
 	)
-	
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 211.455 36.195 270)
@@ -3911,7 +3893,6 @@
 			)
 		)
 	)
-	
 	(global_label "GND"
 		(shape input)
 		(at 171.45 264.16 0)
@@ -4046,7 +4027,6 @@
 			)
 		)
 	)
-	
 	(global_label "GND"
 		(shape input)
 		(at 219.71 146.05 0)
@@ -4069,7 +4049,6 @@
 			)
 		)
 	)
-	
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 115.57 264.16 180)
@@ -4136,8 +4115,6 @@
 			)
 		)
 	)
-	
-	
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 142.875 36.195 270)
@@ -4184,7 +4161,6 @@
 			)
 		)
 	)
-	
 	(global_label "BZ_NEG"
 		(shape input)
 		(at 339.09 218.44 180)
@@ -4341,7 +4317,6 @@
 			)
 		)
 	)
-	
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 289.56 38.1 270)
@@ -4432,7 +4407,6 @@
 			)
 		)
 	)
-	
 	(global_label "GND"
 		(shape input)
 		(at 128.27 254 0)
@@ -4699,7 +4673,6 @@
 			)
 		)
 	)
-	
 	(global_label "GND"
 		(shape input)
 		(at 85.09 254 0)
@@ -4878,7 +4851,6 @@
 			)
 		)
 	)
-	
 	(global_label "GND"
 		(shape input)
 		(at 48.26 114.3 0)
@@ -7797,8 +7769,6 @@
 			)
 		)
 	)
-	
-	
 	(symbol
 		(lib_id "Device:C")
 		(at 165.1 254 90)
@@ -9044,8 +9014,6 @@
 			)
 		)
 	)
-	
-	
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
 		(at 183.515 33.655 180)
@@ -9124,7 +9092,6 @@
 			)
 		)
 	)
-	
 	(symbol
 		(lib_id "Comparator:TLV7031DBV")
 		(at 54.61 129.54 0)

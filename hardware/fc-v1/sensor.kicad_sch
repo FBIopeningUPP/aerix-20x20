@@ -1852,6 +1852,86 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 133 13)
+		(end 246 80)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "66f5769e-b5b6-4d2f-a56a-a8ca5f1e3c4c")
+	)
+	(rectangle
+		(start 47 83)
+		(end 224 162)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6d7055b5-c687-4f5e-838f-aee258757d09")
+	)
+	(rectangle
+		(start 14 13)
+		(end 126 80)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f77b1527-bde9-4fd5-aef5-59dba0e5a430")
+	)
+	(text "ICM-40609-D / SPI IMU"
+		(exclude_from_sim no)
+		(at 20 18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "121f1d74-87b1-4d11-b180-6bebe36f6c49")
+	)
+	(text "DPS368 / optional I2C barometer"
+		(exclude_from_sim no)
+		(at 139 18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "556b6c73-ab37-4509-9f65-2026f01ad7e9")
+	)
+	(text "Flash pull-ups"
+		(exclude_from_sim no)
+		(at 53 135 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "604fe0d1-8b84-4574-ab76-be1d590d12c2")
+	)
+	(text "W25Q128JV / SPI blackbox"
+		(exclude_from_sim no)
+		(at 53 89 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "b6858a39-e804-4022-8e2b-619b9de73a00")
+	)
 	(junction
 		(at 95.25 57.15)
 		(diameter 0)
@@ -1948,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.70 149.86) (xy 142.24 149.86)
+			(xy 139.7 149.86) (xy 142.24 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1998,7 +2078,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 149.86) (xy 190.50 149.86)
+			(xy 193.04 149.86) (xy 190.5 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2028,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 149.86) (xy 203.20 149.86)
+			(xy 200.66 149.86) (xy 203.2 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +2197,7 @@
 		(uuid "bb62700b-f290-4a2f-8b5b-4bb282202982")
 	)
 	(label "FLASH_HOLD"
-		(at 203.20 149.86 0)
+		(at 203.2 149.86 0)
 		(effects
 			(font
 				(size 1 1)
@@ -2248,7 +2328,7 @@
 	)
 	(global_label "3V3_MAIN"
 		(shape input)
-		(at 190.50 149.86 180)
+		(at 190.5 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2257,7 +2337,7 @@
 		)
 		(uuid "22eaf7fc-cd24-4ad1-b715-170a0685538e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.50 149.86 0)
+			(at 190.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4114,7 +4194,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20:W25Q128JVPIQTR")
-		(at 101.60 104.14 0)
+		(at 101.6 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4125,7 +4205,7 @@
 		(fields_autoplaced yes)
 		(uuid "93074d0a-1505-4f4f-823d-655116664bd9")
 		(property "Reference" "U4"
-			(at 101.60 115.57 0)
+			(at 101.6 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4135,7 +4215,7 @@
 			)
 		)
 		(property "Value" "W25Q128JVPIQTR"
-			(at 101.60 118.11 0)
+			(at 101.6 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4145,7 +4225,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20:WSON-8_L6.0-W5.0-P1.27-BL-EP"
-			(at 101.60 118.11 0)
+			(at 101.6 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4156,7 +4236,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Others_Winbond-Elec-W25Q128JVPIQTR_C190862.html"
-			(at 101.60 120.65 0)
+			(at 101.6 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4167,7 +4247,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.60 104.14 0)
+			(at 101.6 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4178,7 +4258,7 @@
 			)
 		)
 		(property "Manufacturer" "Winbond(华邦)"
-			(at 101.60 123.19 0)
+			(at 101.6 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4189,7 +4269,7 @@
 			)
 		)
 		(property "MPN" "W25Q128JVPIQ"
-			(at 101.60 125.73 0)
+			(at 101.6 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,7 +4280,7 @@
 			)
 		)
 		(property "LCSC Part" "C190862"
-			(at 101.60 128.27 0)
+			(at 101.6 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4507,7 +4587,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 114.30 0)
+			(at 77.47 114.3 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4812,7 +4892,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc1363e7-0e37-489b-aaa1-b31299db1313")
 		(property "Reference" "#PWR019"
-			(at 102.87 88.90 0)
+			(at 102.87 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5166,11 +5246,4 @@
 			)
 		)
 	)
-	(rectangle (start 14 13) (end 126 80) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "f77b1527-bde9-4fd5-aef5-59dba0e5a430"))
-	(text "ICM-40609-D / SPI IMU" (at 20 18 0) (effects (font (size 2 2)) (justify left)) (uuid "121f1d74-87b1-4d11-b180-6bebe36f6c49"))
-	(rectangle (start 133 13) (end 246 80) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "66f5769e-b5b6-4d2f-a56a-a8ca5f1e3c4c"))
-	(text "DPS368 / optional I2C barometer" (at 139 18 0) (effects (font (size 2 2)) (justify left)) (uuid "556b6c73-ab37-4509-9f65-2026f01ad7e9"))
-	(rectangle (start 47 83) (end 224 162) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "6d7055b5-c687-4f5e-838f-aee258757d09"))
-	(text "W25Q128JV / SPI blackbox" (at 53 89 0) (effects (font (size 2 2)) (justify left)) (uuid "b6858a39-e804-4022-8e2b-619b9de73a00"))
-	(text "Flash pull-ups" (at 53 135 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "604fe0d1-8b84-4574-ab76-be1d590d12c2"))
 )

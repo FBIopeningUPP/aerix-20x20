@@ -1595,6 +1595,98 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 17 12)
+		(end 256 58)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "120d1772-2d4b-43dc-af17-5e2c9a200824")
+	)
+	(rectangle
+		(start 17 66)
+		(end 188 103)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8410567c-513a-4317-92b2-a33622b6e0c5")
+	)
+	(rectangle
+		(start 261 12)
+		(end 359 58)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c73367a6-de23-4357-a30e-db33b4cc3ef1")
+	)
+	(rectangle
+		(start 197 66)
+		(end 325 110)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fb425c37-ccdf-46d8-977f-67ee3be092dd")
+	)
+	(text "RGB bypass capacitors"
+		(exclude_from_sim no)
+		(at 23 72 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "65a7a501-f336-48db-9faf-56aea399f6d7")
+	)
+	(text "Eight-pixel RGB strip"
+		(exclude_from_sim no)
+		(at 23 18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "7d3dd637-bc2a-4b84-807e-521c663d4796")
+	)
+	(text "Board status LED"
+		(exclude_from_sim no)
+		(at 267 18 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "c54fba59-de2d-48c9-9878-12e2984f7ce9")
+	)
+	(text "Buzzer driver"
+		(exclude_from_sim no)
+		(at 203 72 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "c94c7f1e-05c8-41ad-96a6-64d36b3fc9b6")
+	)
 	(wire
 		(pts
 			(xy 137.795 36.195) (xy 140.335 36.195)
@@ -5616,12 +5708,4 @@
 			)
 		)
 	)
-	(rectangle (start 17 12) (end 256 58) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "120d1772-2d4b-43dc-af17-5e2c9a200824"))
-	(text "Eight-pixel RGB strip" (at 23 18 0) (effects (font (size 2 2)) (justify left)) (uuid "7d3dd637-bc2a-4b84-807e-521c663d4796"))
-	(rectangle (start 261 12) (end 359 58) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "c73367a6-de23-4357-a30e-db33b4cc3ef1"))
-	(text "Board status LED" (at 267 18 0) (effects (font (size 2 2)) (justify left)) (uuid "c54fba59-de2d-48c9-9878-12e2984f7ce9"))
-	(rectangle (start 17 66) (end 188 103) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "8410567c-513a-4317-92b2-a33622b6e0c5"))
-	(text "RGB bypass capacitors" (at 23 72 0) (effects (font (size 2 2)) (justify left)) (uuid "65a7a501-f336-48db-9faf-56aea399f6d7"))
-	(rectangle (start 197 66) (end 325 110) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "fb425c37-ccdf-46d8-977f-67ee3be092dd"))
-	(text "Buzzer driver" (at 203 72 0) (effects (font (size 2 2)) (justify left)) (uuid "c94c7f1e-05c8-41ad-96a6-64d36b3fc9b6"))
 )

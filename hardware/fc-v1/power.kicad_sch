@@ -1712,6 +1712,98 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 157 107)
+		(end 285 145)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "919fe03c-4f3f-4210-bdd1-68f9004fccfd")
+	)
+	(rectangle
+		(start 157 20)
+		(end 285 64)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9df06702-71c9-438f-bfe1-bb8e0ab6a9a0")
+	)
+	(rectangle
+		(start 157 67)
+		(end 285 104)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a3031f8c-ee95-4dc9-8392-0d910e634320")
+	)
+	(rectangle
+		(start 17 20)
+		(end 153 135)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c228e29f-a134-4c04-8ad7-8f631e14d572")
+	)
+	(text "5 V buck"
+		(exclude_from_sim no)
+		(at 23 26 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "88e300ef-73b6-4be2-9296-177f36d964da")
+	)
+	(text "USB / battery logic supply"
+		(exclude_from_sim no)
+		(at 163 26 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "c5615da4-d639-4f0d-945b-10c380edab0b")
+	)
+	(text "Main 3.3 V"
+		(exclude_from_sim no)
+		(at 163 72 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "cdb2c13c-28ae-46b5-853a-f8395004ed8e")
+	)
+	(text "Low-noise gyro supply"
+		(exclude_from_sim no)
+		(at 163 112 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "ffa13b8c-3983-4574-af60-d1b79b6cba34")
+	)
 	(no_connect
 		(at 195.58 126.56)
 		(uuid "b9e94643-1a9c-4974-8131-ce922c69bf08")
@@ -5711,12 +5803,4 @@
 			)
 		)
 	)
-	(rectangle (start 17 20) (end 153 135) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "c228e29f-a134-4c04-8ad7-8f631e14d572"))
-	(text "5 V buck" (at 23 26 0) (effects (font (size 2 2)) (justify left)) (uuid "88e300ef-73b6-4be2-9296-177f36d964da"))
-	(rectangle (start 157 20) (end 285 64) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "9df06702-71c9-438f-bfe1-bb8e0ab6a9a0"))
-	(text "USB / battery logic supply" (at 163 26 0) (effects (font (size 2 2)) (justify left)) (uuid "c5615da4-d639-4f0d-945b-10c380edab0b"))
-	(rectangle (start 157 67) (end 285 104) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "a3031f8c-ee95-4dc9-8392-0d910e634320"))
-	(text "Main 3.3 V" (at 163 72 0) (effects (font (size 2 2)) (justify left)) (uuid "cdb2c13c-28ae-46b5-853a-f8395004ed8e"))
-	(rectangle (start 157 107) (end 285 145) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "919fe03c-4f3f-4210-bdd1-68f9004fccfd"))
-	(text "Low-noise gyro supply" (at 163 112 0) (effects (font (size 2 2)) (justify left)) (uuid "ffa13b8c-3983-4574-af60-d1b79b6cba34"))
 )

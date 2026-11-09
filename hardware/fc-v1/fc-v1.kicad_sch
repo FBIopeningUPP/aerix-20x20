@@ -9,6 +9,72 @@
 		(rev "A")
 	)
 	(lib_symbols)
+	(text "Ports and pads"
+		(exclude_from_sim no)
+		(at 228.6 63.5 0)
+		(effects
+			(font
+				(size 1.55 1.55)
+			)
+			(justify left)
+		)
+		(uuid "192677bc-eb85-4fba-b6c8-1ae28b350e29")
+	)
+	(text "Sensors and blackbox"
+		(exclude_from_sim no)
+		(at 76.2 63.5 0)
+		(effects
+			(font
+				(size 1.55 1.55)
+			)
+			(justify left)
+		)
+		(uuid "854f782f-39c6-47c8-817d-b5887485cb36")
+	)
+	(text "RGB and buzzer"
+		(exclude_from_sim no)
+		(at 127 63.5 0)
+		(effects
+			(font
+				(size 1.55 1.55)
+			)
+			(justify left)
+		)
+		(uuid "8572c3d9-4f60-4510-8afa-72a2a8de78d4")
+	)
+	(text "AERIX-20 / Rev A"
+		(exclude_from_sim no)
+		(at 25.4 23 0)
+		(effects
+			(font
+				(size 3.2 3.2)
+			)
+			(justify left)
+		)
+		(uuid "e395dd71-2e2f-4a3d-9324-19a626d073aa")
+	)
+	(text "MCU and boot"
+		(exclude_from_sim no)
+		(at 25.4 63.5 0)
+		(effects
+			(font
+				(size 1.55 1.55)
+			)
+			(justify left)
+		)
+		(uuid "ebc84820-ce62-43f0-b18d-d52ab4f9b627")
+	)
+	(text "Power rails"
+		(exclude_from_sim no)
+		(at 177.8 63.5 0)
+		(effects
+			(font
+				(size 1.55 1.55)
+			)
+			(justify left)
+		)
+		(uuid "fc39f497-077b-4497-a85e-a60d8e199674")
+	)
 	(sheet
 		(at 177.8 38.1)
 		(size 38.1 19.05)
@@ -56,7 +122,7 @@
 		)
 	)
 	(sheet
-		(at 127.0 38.1)
+		(at 127 38.1)
 		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -245,10 +311,4 @@
 		)
 	)
 	(embedded_fonts no)
-	(text "AERIX-20 / Rev A" (at 25.4 23 0) (effects (font (size 3.2 3.2)) (justify left)) (uuid "e395dd71-2e2f-4a3d-9324-19a626d073aa"))
-	(text "MCU and boot" (at 25.4 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "ebc84820-ce62-43f0-b18d-d52ab4f9b627"))
-	(text "Sensors and blackbox" (at 76.2 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "854f782f-39c6-47c8-817d-b5887485cb36"))
-	(text "RGB and buzzer" (at 127 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "8572c3d9-4f60-4510-8afa-72a2a8de78d4"))
-	(text "Power rails" (at 177.8 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "fc39f497-077b-4497-a85e-a60d8e199674"))
-	(text "Ports and pads" (at 228.6 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "192677bc-eb85-4fba-b6c8-1ae28b350e29"))
 )

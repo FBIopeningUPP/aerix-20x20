@@ -6562,9 +6562,9 @@
 		)
 		(property "Value" "Momentary Tactile Button - Biege"
 			(at 126.365 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -695,6 +695,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "AERIX20:WS2812B-2020-V6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2812B-2020-V6"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C52917434.pdf"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "worldsemi"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "WS2812B-2020-V6"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C52917434"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS2812B-2020-V6_0_1"
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi:RP2354A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2724,6 +2903,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 146.685) (xy 122.555 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0072dc23-4bad-4132-bb6b-74108066cbb8")
+	)
+	(wire
+		(pts
 			(xy 86.995 41.275) (xy 86.36 41.275)
 		)
 		(stroke
@@ -2854,6 +3043,16 @@
 	)
 	(wire
 		(pts
+			(xy 117.475 88.265) (xy 122.555 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4ca8b5-2c8c-4baf-aa72-fc5fec602e1d")
+	)
+	(wire
+		(pts
 			(xy 190.5 41.275) (xy 201.93 41.275)
 		)
 		(stroke
@@ -2921,6 +3120,16 @@
 			(type default)
 		)
 		(uuid "2750d308-0935-4a77-8aa9-3292eb6f8365")
+	)
+	(wire
+		(pts
+			(xy 117.475 144.145) (xy 122.555 144.145)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2898217a-5fd1-4df7-86be-166ea2e64257")
 	)
 	(wire
 		(pts
@@ -3011,6 +3220,26 @@
 			(type default)
 		)
 		(uuid "478ea7fd-6026-4e26-8752-87f9531a820d")
+	)
+	(wire
+		(pts
+			(xy 117.475 98.425) (xy 122.555 98.425)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f49b79e-900e-4048-ad35-90fe663d0ace")
+	)
+	(wire
+		(pts
+			(xy 209.55 83.82) (xy 205.74 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50908866-71bf-4eed-aadc-ad66a9ff3796")
 	)
 	(wire
 		(pts
@@ -3231,6 +3460,16 @@
 			(type default)
 		)
 		(uuid "96917ee5-a9f2-4a38-b852-6ecbae3f1206")
+	)
+	(wire
+		(pts
+			(xy 117.475 95.885) (xy 122.555 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9abb9a66-de02-42fb-9f01-50e8e6c548df")
 	)
 	(wire
 		(pts
@@ -3634,8 +3873,30 @@
 			)
 		)
 	)
+	(global_label "LED_DATA"
+		(shape input)
+		(at 187.96 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09bb7f9d-f83b-4c18-8c50-bc43d71cbdea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "FLASH_MOSI"
-		(shape output)
+		(shape input)
 		(at 61.595 121.285 180)
 		(effects
 			(font
@@ -3679,7 +3940,7 @@
 		)
 	)
 	(global_label "I2C_SDA"
-		(shape bidirectional)
+		(shape input)
 		(at 61.595 83.185 180)
 		(effects
 			(font
@@ -3701,7 +3962,7 @@
 		)
 	)
 	(global_label "ELRS_TX"
-		(shape output)
+		(shape input)
 		(at 61.595 88.265 180)
 		(effects
 			(font
@@ -3722,8 +3983,30 @@
 			)
 		)
 	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 122.555 146.685 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1247d9ce-2439-4b18-8be0-7ab9b6cc6181")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.555 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "BEEPER"
-		(shape output)
+		(shape input)
 		(at 61.595 116.205 180)
 		(effects
 			(font
@@ -3745,7 +4028,7 @@
 		)
 	)
 	(global_label "M1"
-		(shape output)
+		(shape input)
 		(at 61.595 128.905 180)
 		(effects
 			(font
@@ -3767,7 +4050,7 @@
 		)
 	)
 	(global_label "OSD_W"
-		(shape output)
+		(shape input)
 		(at 61.595 108.585 180)
 		(effects
 			(font
@@ -3810,9 +4093,31 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
+	(global_label "RUN"
 		(shape input)
-		(at 117.475 95.885 0)
+		(at 122.555 88.265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e32996f-7281-4d0a-9d9d-fe3427fa98c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.555 88.265 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "USB_MCU_N"
+		(shape input)
+		(at 122.555 95.885 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3822,7 +4127,7 @@
 		)
 		(uuid "5073b0ca-4d1e-44a4-ab4c-b6a00b4a7ded")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.9592 95.885 0)
+			(at 133.0392 95.885 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +4140,7 @@
 		)
 	)
 	(global_label "M3"
-		(shape output)
+		(shape input)
 		(at 61.595 133.985 180)
 		(effects
 			(font
@@ -3881,7 +4186,7 @@
 		)
 	)
 	(global_label "I2C_SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 61.595 85.725 180)
 		(effects
 			(font
@@ -3892,6 +4197,28 @@
 		(uuid "5ad1a436-33b0-4540-89d6-6b5e8d92d01d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.595 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "LED_DATA_OUT"
+		(shape input)
+		(at 205.74 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "637ddc65-c542-4fda-b0b2-406b788fe549")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3947,7 +4274,7 @@
 		)
 	)
 	(global_label "SPARE_GP28"
-		(shape passive)
+		(shape input)
 		(at 61.595 146.685 180)
 		(effects
 			(font
@@ -3968,8 +4295,32 @@
 			)
 		)
 	)
+	(global_label "3V3_MAIN"
+		(shape input)
+		(at 187.96 86.36 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b33eb75-af5d-4812-964f-b43736005fc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 98.2957 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OSD_EN"
-		(shape output)
+		(shape input)
 		(at 61.595 111.125 180)
 		(effects
 			(font
@@ -4015,7 +4366,7 @@
 		)
 	)
 	(global_label "SPARE_GP29"
-		(shape passive)
+		(shape input)
 		(at 61.595 149.225 180)
 		(effects
 			(font
@@ -4036,9 +4387,9 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "USB_MCU_P"
 		(shape input)
-		(at 117.475 98.425 0)
+		(at 122.555 98.425 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4048,7 +4399,7 @@
 		)
 		(uuid "872d828b-da89-41f8-8fa9-7164c436d3fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7778 98.425 0)
+			(at 132.8578 98.425 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4105,7 +4456,7 @@
 		)
 	)
 	(global_label "FLASH_CS"
-		(shape output)
+		(shape input)
 		(at 61.595 126.365 180)
 		(effects
 			(font
@@ -4127,7 +4478,7 @@
 		)
 	)
 	(global_label "IMU_CS"
-		(shape output)
+		(shape input)
 		(at 61.595 106.045 180)
 		(effects
 			(font
@@ -4148,7 +4499,7 @@
 			)
 		)
 	)
-	(global_label "1V1_MAIN"
+	(global_label "1V1_CORE"
 		(shape input)
 		(at 44.45 41.275 180)
 		(fields_autoplaced yes)
@@ -4195,7 +4546,7 @@
 		)
 	)
 	(global_label "SPARE_GP2"
-		(shape passive)
+		(shape input)
 		(at 61.595 78.105 180)
 		(effects
 			(font
@@ -4217,7 +4568,7 @@
 		)
 	)
 	(global_label "AUX_TX"
-		(shape output)
+		(shape input)
 		(at 61.595 141.605 180)
 		(effects
 			(font
@@ -4239,7 +4590,7 @@
 		)
 	)
 	(global_label "M2"
-		(shape output)
+		(shape input)
 		(at 61.595 131.445 180)
 		(effects
 			(font
@@ -4260,8 +4611,30 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 122.555 144.145 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba6ad7d0-0ae3-41a5-8f2f-6962cbc5dbf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.555 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "VTX_TX"
-		(shape output)
+		(shape input)
 		(at 61.595 73.025 180)
 		(effects
 			(font
@@ -4283,7 +4656,7 @@
 		)
 	)
 	(global_label "LED_DATA"
-		(shape output)
+		(shape input)
 		(at 61.595 93.345 180)
 		(effects
 			(font
@@ -4305,7 +4678,7 @@
 		)
 	)
 	(global_label "FLASH_SCK"
-		(shape output)
+		(shape input)
 		(at 61.595 118.745 180)
 		(effects
 			(font
@@ -4327,7 +4700,7 @@
 		)
 	)
 	(global_label "IMU_SCK"
-		(shape output)
+		(shape input)
 		(at 61.595 98.425 180)
 		(effects
 			(font
@@ -4349,7 +4722,7 @@
 		)
 	)
 	(global_label "M4"
-		(shape output)
+		(shape input)
 		(at 61.595 136.525 180)
 		(effects
 			(font
@@ -4371,7 +4744,7 @@
 		)
 	)
 	(global_label "IMU_MOSI"
-		(shape output)
+		(shape input)
 		(at 61.595 100.965 180)
 		(effects
 			(font
@@ -5983,6 +6356,125 @@
 		)
 	)
 	(symbol
+		(lib_id "AERIX20:WS2812B-2020-V6")
+		(at 196.85 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95fe75bd-4a30-4335-a5ee-a1ca13b42d0e")
+		(property "Reference" "LED1"
+			(at 196.85 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020-V6"
+			(at 196.85 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52917434.pdf"
+			(at 196.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "worldsemi"
+			(at 196.85 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WS2812B-2020-V6"
+			(at 196.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52917434"
+			(at 196.85 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97e323ea-fe43-45fc-bfce-55e56c540fc6")
+		)
+		(pin "3"
+			(uuid "f6c68194-5954-42e0-923e-eda7ed29cf5a")
+		)
+		(pin "4"
+			(uuid "941d8ea9-b7c7-43ee-9c75-a8869008a36a")
+		)
+		(pin "1"
+			(uuid "8003c864-7db8-455b-b120-29bfa8b6bfc9")
+		)
+		(instances
+			(project "fc-v1"
+				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/e38bf00c-9722-42f1-afcb-482b9e7cd1be"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
 		(at 125.73 136.525 90)
 		(unit 1)
@@ -6138,6 +6630,84 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/e38bf00c-9722-42f1-afcb-482b9e7cd1be"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 209.55 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b41cad43-581a-46b7-98c5-dcb00b935d1f")
+		(property "Reference" "#PWR020"
+			(at 209.55 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 80.01 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3305b74-8a65-4254-9440-0a6e40ae7211")
+		)
+		(instances
+			(project "fc-v1"
+				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/e38bf00c-9722-42f1-afcb-482b9e7cd1be"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

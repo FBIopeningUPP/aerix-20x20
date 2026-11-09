@@ -2820,7 +2820,7 @@
 	)
 	(rectangle
 		(start 24 59)
-		(end 188 163)
+		(end 206 163)
 		(stroke
 			(width 0.18)
 			(type solid)
@@ -2843,7 +2843,7 @@
 	)
 	(text "12 MHz crystal"
 		(exclude_from_sim no)
-		(at 152 116 0)
+		(at 140.57 116 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -6551,7 +6551,7 @@
 		(fields_autoplaced yes)
 		(uuid "9507bb8e-aa9a-4581-8a68-305f7fabaaff")
 		(property "Reference" "SW1"
-			(at 126.365 97.79 0)
+			(at 126.365 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6564,6 +6564,7 @@
 			(at 126.365 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +6975,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb467e68-166f-4ee0-a144-6acedb3ba7d2")
 		(property "Reference" "X1"
-			(at 150.495 130.8099 90)
+			(at 169.545 126.365 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6985,7 +6986,7 @@
 			)
 		)
 		(property "Value" "ABM10-167-12.000MHZ-T3"
-			(at 150.495 133.3499 90)
+			(at 169.545 128.905 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

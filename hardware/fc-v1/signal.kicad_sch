@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "24227b22-f3be-407e-9c50-1ab43019a8f5")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "AERIX-20 - External connectors and solder pads")
 		(rev "A")
@@ -1799,144 +1799,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 15 12)
-		(end 140 97)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "227462a1-f6a4-4afe-8cc8-79d529054f24")
-	)
-	(rectangle
-		(start 289 78)
-		(end 383 181)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "336a920f-8852-461b-8559-3cc1fb744892")
-	)
-	(rectangle
-		(start 289 12)
-		(end 383 78)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6583b23e-72f8-4026-b9c1-9e732c0185d5")
-	)
-	(rectangle
-		(start 15 151)
-		(end 140 199)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "688751e6-7074-436b-b53e-80ebaa791190")
-	)
-	(rectangle
-		(start 15 97)
-		(end 140 151)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6c5d4468-f911-44e5-8223-e66adb4f4931")
-	)
-	(rectangle
-		(start 145 12)
-		(end 281 74)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "dc13d400-9071-4eb7-873e-e116e2f58956")
-	)
-	(text "ESC harness"
-		(exclude_from_sim no)
-		(at 150 15 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "60aa35fd-1ade-4d87-b074-233effb35262")
-	)
-	(text "ELRS / SWD"
-		(exclude_from_sim no)
-		(at 20 153 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "888c0ed3-2a48-4e05-8451-1f978332bc29")
-	)
-	(text "USB-C device / USB 2.0"
-		(exclude_from_sim no)
-		(at 20 15 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "909cc441-4c3f-4e27-b9a1-4f8e81f0e1c5")
-	)
-	(text "VTX / SmartAudio / buzzer / RGB pads"
-		(exclude_from_sim no)
-		(at 293 86 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "91bd4208-9d3c-4745-9aa3-7b4361050b00")
-	)
-	(text "I2C pads"
-		(exclude_from_sim no)
-		(at 20 101 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "a0a784a5-0fc6-4f32-9ea6-4c66c4cddd11")
-	)
-	(text "Alternate ESC motor solder pads"
-		(exclude_from_sim no)
-		(at 293 17 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left)
-		)
-		(uuid "dfa5fa04-1449-4387-aca5-1b192d2c0ae3")
-	)
 	(no_connect
 		(at 58.42 60.96)
 		(uuid "4d6114ba-e164-437b-8cbc-f0fc3b96ae7d")
@@ -1967,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 168.91) (xy 41.91 168.91)
+			(xy 44.45 120.65) (xy 41.91 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 31.75) (xy 326.39 31.75)
+			(xy 240.03 31.75) (xy 237.49 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 44.45) (xy 246.38 44.45)
+			(xy 187.96 44.45) (xy 185.42 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1997,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 135.89) (xy 326.39 135.89)
+			(xy 198.12 116.84) (xy 195.58 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2007,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 34.29) (xy 246.38 34.29)
+			(xy 187.96 34.29) (xy 185.42 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 101.6) (xy 326.39 101.6)
+			(xy 198.12 95.25) (xy 195.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2057,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 185.42) (xy 87.63 185.42)
+			(xy 90.17 137.16) (xy 87.63 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 163.83) (xy 125.73 163.83)
+			(xy 123.19 115.57) (xy 125.73 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 158.75) (xy 87.63 158.75)
+			(xy 90.17 110.49) (xy 87.63 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2097,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 160.655) (xy 359.41 160.655)
+			(xy 231.14 141.605) (xy 228.60 141.605)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 147.32) (xy 326.39 147.32)
+			(xy 198.12 128.27) (xy 195.58 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2117,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 66.04) (xy 326.39 66.04)
+			(xy 240.03 66.04) (xy 237.49 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 194.31) (xy 87.63 194.31)
+			(xy 90.17 146.05) (xy 87.63 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 167.64) (xy 87.63 167.64)
+			(xy 90.17 119.38) (xy 87.63 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 158.75) (xy 326.39 158.75)
+			(xy 198.12 139.70) (xy 195.58 139.70)
 		)
 		(stroke
 			(width 0)
@@ -2157,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 169.545) (xy 359.41 169.545)
+			(xy 231.14 150.495) (xy 228.60 150.495)
 		)
 		(stroke
 			(width 0)
@@ -2177,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 177.8) (xy 41.91 177.8)
+			(xy 44.45 129.54) (xy 41.91 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 124.46) (xy 326.39 124.46)
+			(xy 198.12 105.41) (xy 195.58 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 43.18) (xy 326.39 43.18)
+			(xy 240.03 43.18) (xy 237.49 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 160.02) (xy 41.91 160.02)
+			(xy 44.45 111.76) (xy 41.91 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 55.88) (xy 246.38 55.88)
+			(xy 187.96 55.88) (xy 185.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2297,7 +2159,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 54.61) (xy 326.39 54.61)
+			(xy 240.03 54.61) (xy 237.49 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 186.69) (xy 41.91 186.69)
+			(xy 44.45 138.43) (xy 41.91 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 170.18) (xy 326.39 170.18)
+			(xy 198.12 151.13) (xy 195.58 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 177.8) (xy 326.39 177.8)
+			(xy 198.12 158.75) (xy 195.58 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 176.53) (xy 87.63 176.53)
+			(xy 90.17 128.27) (xy 87.63 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 163.83) (xy 113.03 163.83)
+			(xy 115.57 115.57) (xy 113.03 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2457,7 +2319,7 @@
 	)
 	(global_label "SWDIO"
 		(shape input)
-		(at 87.63 167.64 180)
+		(at 87.63 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2328,7 @@
 		)
 		(uuid "08c74c61-3f56-4044-924c-3b3a04ede5bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 167.64 0)
+			(at 87.63 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2341,7 @@
 	)
 	(global_label "VTX_RX"
 		(shape input)
-		(at 326.39 170.18 180)
+		(at 195.58 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2488,7 +2350,7 @@
 		)
 		(uuid "117c085e-f8a3-4f4b-8296-90b2b7241d0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 170.18 0)
+			(at 195.58 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2363,7 @@
 	)
 	(global_label "M1"
 		(shape input)
-		(at 326.39 31.75 180)
+		(at 237.49 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2510,7 +2372,7 @@
 		)
 		(uuid "13c9db25-10e7-49df-8d20-594933157376")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 31.75 0)
+			(at 237.49 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2523,7 +2385,7 @@
 	)
 	(global_label "LED_OUT"
 		(shape input)
-		(at 326.39 177.8 180)
+		(at 195.58 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,7 +2394,7 @@
 		)
 		(uuid "144a64d1-1fc5-497d-8448-1e3830ebf694")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 177.8 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2545,7 +2407,7 @@
 	)
 	(global_label "3V3_MAIN"
 		(shape input)
-		(at 87.63 194.31 180)
+		(at 87.63 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2554,7 +2416,7 @@
 		)
 		(uuid "1fd0d78a-3213-4459-bb82-fef4b90bc82e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 194.31 0)
+			(at 87.63 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2589,7 +2451,7 @@
 	)
 	(global_label "BZ_NEG"
 		(shape input)
-		(at 326.39 135.89 180)
+		(at 195.58 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2598,7 +2460,7 @@
 		)
 		(uuid "3969cd65-e34c-465f-84d1-95621e9cfa33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 135.89 0)
+			(at 195.58 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2655,7 +2517,7 @@
 	)
 	(global_label "SMARTAUDIO"
 		(shape input)
-		(at 326.39 101.6 180)
+		(at 195.58 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2664,7 +2526,7 @@
 		)
 		(uuid "43dbcabf-79e5-45df-89f9-88ff6b52ca93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 101.6 0)
+			(at 195.58 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,7 +2539,7 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 87.63 158.75 180)
+		(at 87.63 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2686,7 +2548,7 @@
 		)
 		(uuid "47a69b33-e4ad-4d37-9039-75f16c6b93d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 158.75 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2721,7 +2583,7 @@
 	)
 	(global_label "ESC_TLM"
 		(shape input)
-		(at 246.38 55.88 180)
+		(at 185.42 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2730,7 +2592,7 @@
 		)
 		(uuid "49d8c892-29a0-47bc-986a-172f7a0b852b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 55.88 0)
+			(at 185.42 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +2605,7 @@
 	)
 	(global_label "VTX_TX"
 		(shape input)
-		(at 326.39 158.75 180)
+		(at 195.58 139.70 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2752,7 +2614,7 @@
 		)
 		(uuid "4b394e38-21cf-49e4-a442-1654c1405985")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 158.75 0)
+			(at 195.58 139.70 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +2649,7 @@
 	)
 	(global_label "M4"
 		(shape input)
-		(at 326.39 66.04 180)
+		(at 237.49 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2796,7 +2658,7 @@
 		)
 		(uuid "5bd4e4dd-cff4-436a-8100-f85f69108512")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 66.04 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2809,7 +2671,7 @@
 	)
 	(global_label "5V_BUCK"
 		(shape input)
-		(at 41.91 177.8 180)
+		(at 41.91 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,7 +2680,7 @@
 		)
 		(uuid "5fa82a7c-c460-4131-8deb-366377875154")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 177.8 0)
+			(at 41.91 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2853,7 +2715,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 246.38 44.45 180)
+		(at 185.42 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2862,7 +2724,7 @@
 		)
 		(uuid "6f37ee0e-b998-41bc-a299-f8158f76023c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 44.45 0)
+			(at 185.42 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2875,7 +2737,7 @@
 	)
 	(global_label "RUN"
 		(shape input)
-		(at 87.63 176.53 180)
+		(at 87.63 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2884,7 +2746,7 @@
 		)
 		(uuid "72982a09-a0cf-4371-909b-824cb9f2172a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 176.53 0)
+			(at 87.63 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2897,7 +2759,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 246.38 34.29 180)
+		(at 185.42 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,7 +2768,7 @@
 		)
 		(uuid "73f723ab-4908-42ad-89aa-41fc3b35c326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.38 34.29 0)
+			(at 185.42 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2919,7 +2781,7 @@
 	)
 	(global_label "5V_BUCK"
 		(shape input)
-		(at 359.41 160.655 180)
+		(at 228.60 141.605 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2928,7 +2790,7 @@
 		)
 		(uuid "774177e8-db5b-4679-8325-f2a2e789fbb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 160.655 0)
+			(at 228.60 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,7 +2803,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 87.63 185.42 180)
+		(at 87.63 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2950,7 +2812,7 @@
 		)
 		(uuid "78c165d8-7c99-46e5-a039-435b637cacf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 185.42 0)
+			(at 87.63 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2963,7 +2825,7 @@
 	)
 	(global_label "5V_BUCK"
 		(shape input)
-		(at 326.39 124.46 180)
+		(at 195.58 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2972,7 +2834,7 @@
 		)
 		(uuid "7f4f6388-8827-4f1b-aecb-d3cab9c95517")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 124.46 0)
+			(at 195.58 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3007,7 +2869,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 326.39 147.32 180)
+		(at 195.58 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,7 +2878,7 @@
 		)
 		(uuid "845e2294-fbec-4e61-9793-7d8d3721597e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 147.32 0)
+			(at 195.58 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3095,7 +2957,7 @@
 	)
 	(global_label "ELRS_RX"
 		(shape input)
-		(at 41.91 168.91 180)
+		(at 41.91 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3104,7 +2966,7 @@
 		)
 		(uuid "9c0996a9-76a1-4d68-ba03-a9bef05d148f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 168.91 0)
+			(at 41.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +3045,7 @@
 	)
 	(global_label "M2"
 		(shape input)
-		(at 326.39 43.18 180)
+		(at 237.49 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3192,7 +3054,7 @@
 		)
 		(uuid "abe7ffdb-c056-40fb-94b2-56a16b6e2b36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 43.18 0)
+			(at 237.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,7 +3067,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 359.41 169.545 180)
+		(at 228.60 150.495 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3214,7 +3076,7 @@
 		)
 		(uuid "bb925999-2c74-4596-bcbc-cc596a4710f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 359.41 169.545 0)
+			(at 228.60 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,7 +3089,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 41.91 186.69 180)
+		(at 41.91 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3236,7 +3098,7 @@
 		)
 		(uuid "be5483ae-a214-4610-9a95-fe157b418c43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 186.69 0)
+			(at 41.91 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,7 +3133,7 @@
 	)
 	(global_label "M3"
 		(shape input)
-		(at 326.39 54.61 180)
+		(at 237.49 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,7 +3142,7 @@
 		)
 		(uuid "cb5cabae-84c2-4500-ab97-8c23d8a237ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.39 54.61 0)
+			(at 237.49 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,7 +3155,7 @@
 	)
 	(global_label "3V3_MAIN"
 		(shape input)
-		(at 125.73 163.83 0)
+		(at 125.73 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3302,7 +3164,7 @@
 		)
 		(uuid "d259884a-838c-49b6-850c-e48cd2c66981")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 163.83 0)
+			(at 125.73 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +3177,7 @@
 	)
 	(global_label "ELRS_TX"
 		(shape input)
-		(at 41.91 160.02 180)
+		(at 41.91 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3324,7 +3186,7 @@
 		)
 		(uuid "d590aaf6-40cf-4948-8a95-dfb53ee058dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 160.02 0)
+			(at 41.91 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3243,7 @@
 	)
 	(global_label "RUN"
 		(shape input)
-		(at 113.03 163.83 180)
+		(at 113.03 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3390,7 +3252,7 @@
 		)
 		(uuid "d87ec792-0c79-4752-8a65-2332d3604045")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.03 163.83 0)
+			(at 113.03 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,7 +3287,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 158.75 0)
+		(at 200.66 139.70 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3435,7 +3297,7 @@
 		(dnp no)
 		(uuid "06f7842c-e915-407e-b410-c90ff4facb6e")
 		(property "Reference" "J23"
-			(at 331.47 153.63 0)
+			(at 200.66 134.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3445,7 +3307,7 @@
 			)
 		)
 		(property "Value" "VTX_TX"
-			(at 331.47 155.15 0)
+			(at 200.66 136.10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3455,7 +3317,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 158.75 0)
+			(at 200.66 139.70 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3466,7 +3328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 158.75 0)
+			(at 200.66 139.70 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3476,7 +3338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 158.75 0)
+			(at 200.66 139.70 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3499,7 +3361,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 43.18 0)
+		(at 242.57 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3509,7 +3371,7 @@
 		(dnp no)
 		(uuid "08ae8a2b-8ae8-43c7-a9fb-7ca417c3e97b")
 		(property "Reference" "J15"
-			(at 331.47 38.06 0)
+			(at 242.57 38.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3519,7 +3381,7 @@
 			)
 		)
 		(property "Value" "M2"
-			(at 331.47 39.58 0)
+			(at 242.57 39.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,7 +3391,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 43.18 0)
+			(at 242.57 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +3402,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 43.18 0)
+			(at 242.57 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3550,7 +3412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 43.18 0)
+			(at 242.57 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3573,7 +3435,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 46.99 186.69 0)
+		(at 46.99 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3583,7 +3445,7 @@
 		(dnp no)
 		(uuid "0a12ffaa-e1fe-4164-90b8-45b55a1d4065")
 		(property "Reference" "J12"
-			(at 46.99 181.57 0)
+			(at 46.99 133.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3593,7 +3455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 183.09 0)
+			(at 46.99 134.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3603,7 +3465,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 46.99 186.69 0)
+			(at 46.99 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3614,7 +3476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 186.69 0)
+			(at 46.99 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3624,7 +3486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 186.69 0)
+			(at 46.99 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3647,7 +3509,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 31.75 0)
+		(at 242.57 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3657,7 +3519,7 @@
 		(dnp no)
 		(uuid "0d49639c-448a-4301-9fd6-760546635e1a")
 		(property "Reference" "J14"
-			(at 331.47 26.63 0)
+			(at 242.57 26.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3667,7 +3529,7 @@
 			)
 		)
 		(property "Value" "M1"
-			(at 331.47 28.15 0)
+			(at 242.57 28.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3677,7 +3539,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 31.75 0)
+			(at 242.57 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +3550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 31.75 0)
+			(at 242.57 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3698,7 +3560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 31.75 0)
+			(at 242.57 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3721,7 +3583,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 147.32 0)
+		(at 200.66 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3731,7 +3593,7 @@
 		(dnp no)
 		(uuid "19900580-0882-4121-9199-c411cb05273f")
 		(property "Reference" "J22"
-			(at 331.47 142.2 0)
+			(at 200.66 123.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3741,7 +3603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 331.47 143.72 0)
+			(at 200.66 124.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3751,7 +3613,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 147.32 0)
+			(at 200.66 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +3624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 147.32 0)
+			(at 200.66 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3772,7 +3634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 147.32 0)
+			(at 200.66 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3795,7 +3657,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 46.99 160.02 0)
+		(at 46.99 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3805,7 +3667,7 @@
 		(dnp no)
 		(uuid "1e7ee209-f154-49cb-8a2c-b7b7763b362d")
 		(property "Reference" "J9"
-			(at 46.99 154.9 0)
+			(at 46.99 106.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3815,7 +3677,7 @@
 			)
 		)
 		(property "Value" "ELRS_TX"
-			(at 46.99 156.42 0)
+			(at 46.99 108.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3825,7 +3687,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 46.99 160.02 0)
+			(at 46.99 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 160.02 0)
+			(at 46.99 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3846,7 +3708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 160.02 0)
+			(at 46.99 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3869,7 +3731,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 101.6 0)
+		(at 200.66 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3879,7 +3741,7 @@
 		(dnp no)
 		(uuid "2af6a6d3-a58e-4b05-8d77-bf2aeb395e63")
 		(property "Reference" "J18"
-			(at 331.47 96.48 0)
+			(at 200.66 90.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3889,7 +3751,7 @@
 			)
 		)
 		(property "Value" "SMARTAUDIO"
-			(at 331.47 98 0)
+			(at 200.66 91.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3899,7 +3761,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 101.6 0)
+			(at 200.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 101.6 0)
+			(at 200.66 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3920,7 +3782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 101.6 0)
+			(at 200.66 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3943,7 +3805,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
-		(at 92.71 158.75 0)
+		(at 92.71 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -3953,7 +3815,7 @@
 		(dnp no)
 		(uuid "47714ae6-1bbd-44d7-bc72-065d6946ff58")
 		(property "Reference" "TP1"
-			(at 92.71 153.63 0)
+			(at 92.71 105.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3963,7 +3825,7 @@
 			)
 		)
 		(property "Value" "SWCLK"
-			(at 92.71 155.15 0)
+			(at 92.71 106.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3973,7 +3835,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:ProbePad_D1.0mm"
-			(at 92.71 158.75 0)
+			(at 92.71 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 158.75 0)
+			(at 92.71 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3994,7 +3856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 158.75 0)
+			(at 92.71 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4017,7 +3879,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_2.0x2.5mm")
-		(at 251.46 44.45 0)
+		(at 190.50 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4027,7 +3889,7 @@
 		(dnp no)
 		(uuid "489d37d4-e765-4d69-a8d8-7a127e73f7ff")
 		(property "Reference" "J3"
-			(at 251.46 39.33 0)
+			(at 190.50 39.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4037,7 +3899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 40.85 0)
+			(at 190.50 40.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4047,7 +3909,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_2.0x2.5mm"
-			(at 251.46 44.45 0)
+			(at 190.50 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4058,7 +3920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 44.45 0)
+			(at 190.50 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4068,7 +3930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 44.45 0)
+			(at 190.50 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4091,7 +3953,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 364.49 160.655 0)
+		(at 233.68 141.605 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4101,7 +3963,7 @@
 		(dnp no)
 		(uuid "53a7276d-1155-4547-bd4c-273dcfd88330")
 		(property "Reference" "J13"
-			(at 364.49 155.535 0)
+			(at 233.68 136.485 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4111,7 +3973,7 @@
 			)
 		)
 		(property "Value" "5V_BUCK"
-			(at 364.49 157.055 0)
+			(at 233.68 138.005 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4121,7 +3983,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 364.49 160.655 0)
+			(at 233.68 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4132,7 +3994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 160.655 0)
+			(at 233.68 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4142,7 +4004,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 160.655 0)
+			(at 233.68 141.605 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4321,7 +4183,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 46.99 168.91 0)
+		(at 46.99 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4331,7 +4193,7 @@
 		(dnp no)
 		(uuid "6eb44d0b-639d-4f79-8fab-22d990ea49bf")
 		(property "Reference" "J10"
-			(at 46.99 163.79 0)
+			(at 46.99 115.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4341,7 +4203,7 @@
 			)
 		)
 		(property "Value" "ELRS_RX"
-			(at 46.99 165.31 0)
+			(at 46.99 117.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4351,7 +4213,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 46.99 168.91 0)
+			(at 46.99 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4362,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 168.91 0)
+			(at 46.99 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4372,7 +4234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 168.91 0)
+			(at 46.99 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4395,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 251.46 55.88 0)
+		(at 190.50 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4405,7 +4267,7 @@
 		(dnp no)
 		(uuid "72659ff7-ef74-4ba6-a6cd-a298e7927c63")
 		(property "Reference" "J4"
-			(at 251.46 50.76 0)
+			(at 190.50 50.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,7 +4277,7 @@
 			)
 		)
 		(property "Value" "ESC_TLM"
-			(at 251.46 52.28 0)
+			(at 190.50 52.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4425,7 +4287,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 251.46 55.88 0)
+			(at 190.50 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 55.88 0)
+			(at 190.50 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4446,7 +4308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 55.88 0)
+			(at 190.50 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4546,7 +4408,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 364.49 169.545 0)
+		(at 233.68 150.495 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4556,7 +4418,7 @@
 		(dnp no)
 		(uuid "743988a1-33dd-4b45-9e7f-c72beac7ffa4")
 		(property "Reference" "J26"
-			(at 364.49 164.425 0)
+			(at 233.68 145.375 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4566,7 +4428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 364.49 165.945 0)
+			(at 233.68 146.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4576,7 +4438,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 364.49 169.545 0)
+			(at 233.68 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 169.545 0)
+			(at 233.68 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4597,7 +4459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 169.545 0)
+			(at 233.68 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4620,7 +4482,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 170.18 0)
+		(at 200.66 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4630,7 +4492,7 @@
 		(dnp no)
 		(uuid "75c8eb43-df79-497f-8732-241005627e63")
 		(property "Reference" "J24"
-			(at 331.47 165.06 0)
+			(at 200.66 146.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4640,7 +4502,7 @@
 			)
 		)
 		(property "Value" "VTX_RX"
-			(at 331.47 166.58 0)
+			(at 200.66 147.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4650,7 +4512,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 170.18 0)
+			(at 200.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4661,7 +4523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 170.18 0)
+			(at 200.66 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4671,7 +4533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 170.18 0)
+			(at 200.66 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4694,7 +4556,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 119.38 163.83 90)
+		(at 119.38 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4704,7 +4566,7 @@
 		(dnp no)
 		(uuid "78e9855f-e6fd-4ea3-95d2-640d7af66927")
 		(property "Reference" "R25"
-			(at 119.38 158.71 90)
+			(at 119.38 110.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4714,7 +4576,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 160.23 90)
+			(at 119.38 111.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4724,7 +4586,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 119.38 163.83 90)
+			(at 119.38 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4735,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 163.83 0)
+			(at 119.38 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4745,7 +4607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 163.83 0)
+			(at 119.38 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4771,7 +4633,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
-		(at 92.71 176.53 0)
+		(at 92.71 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4781,7 +4643,7 @@
 		(dnp no)
 		(uuid "80d59ef6-44f0-40bf-8ad3-9b581d128b1d")
 		(property "Reference" "TP3"
-			(at 92.71 171.41 0)
+			(at 92.71 123.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4791,7 +4653,7 @@
 			)
 		)
 		(property "Value" "RUN"
-			(at 92.71 172.93 0)
+			(at 92.71 124.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4801,7 +4663,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:ProbePad_D1.0mm"
-			(at 92.71 176.53 0)
+			(at 92.71 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4812,7 +4674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 176.53 0)
+			(at 92.71 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4822,7 +4684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 176.53 0)
+			(at 92.71 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4845,7 +4707,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 135.89 0)
+		(at 200.66 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -4855,7 +4717,7 @@
 		(dnp no)
 		(uuid "86e0b072-0a67-4555-8e3e-f9da6f7774e4")
 		(property "Reference" "J21"
-			(at 331.47 130.77 0)
+			(at 200.66 111.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4865,7 +4727,7 @@
 			)
 		)
 		(property "Value" "BZ_NEG"
-			(at 331.47 132.29 0)
+			(at 200.66 113.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4875,7 +4737,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 135.89 0)
+			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4886,7 +4748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 135.89 0)
+			(at 200.66 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4896,7 +4758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 135.89 0)
+			(at 200.66 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5118,7 +4980,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_2.0x2.5mm")
-		(at 251.46 34.29 0)
+		(at 190.50 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5128,7 +4990,7 @@
 		(dnp no)
 		(uuid "a0870090-17f0-4a7c-8104-dfecf8f28b30")
 		(property "Reference" "J2"
-			(at 251.46 29.17 0)
+			(at 190.50 29.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5138,7 +5000,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 251.46 30.69 0)
+			(at 190.50 30.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5148,7 +5010,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_2.0x2.5mm"
-			(at 251.46 34.29 0)
+			(at 190.50 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 34.29 0)
+			(at 190.50 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5169,7 +5031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 34.29 0)
+			(at 190.50 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5192,7 +5054,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
-		(at 92.71 167.64 0)
+		(at 92.71 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5202,7 +5064,7 @@
 		(dnp no)
 		(uuid "a212568f-0466-4d41-9c4e-b9e465cf0e6d")
 		(property "Reference" "TP2"
-			(at 92.71 162.52 0)
+			(at 92.71 114.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5212,7 +5074,7 @@
 			)
 		)
 		(property "Value" "SWDIO"
-			(at 92.71 164.04 0)
+			(at 92.71 115.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5222,7 +5084,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:ProbePad_D1.0mm"
-			(at 92.71 167.64 0)
+			(at 92.71 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5233,7 +5095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 167.64 0)
+			(at 92.71 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5243,7 +5105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 167.64 0)
+			(at 92.71 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5266,7 +5128,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
-		(at 92.71 185.42 0)
+		(at 92.71 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5276,7 +5138,7 @@
 		(dnp no)
 		(uuid "a7eec6bb-bcec-4501-8c9d-00323932bda4")
 		(property "Reference" "TP4"
-			(at 92.71 180.3 0)
+			(at 92.71 132.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5286,7 +5148,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 181.82 0)
+			(at 92.71 133.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5296,7 +5158,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:ProbePad_D1.0mm"
-			(at 92.71 185.42 0)
+			(at 92.71 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 185.42 0)
+			(at 92.71 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5317,7 +5179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 185.42 0)
+			(at 92.71 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5340,7 +5202,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 124.46 0)
+		(at 200.66 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5350,7 +5212,7 @@
 		(dnp no)
 		(uuid "ab53c593-09c1-4f1d-9c84-670bdf2d94c1")
 		(property "Reference" "J20"
-			(at 331.47 119.34 0)
+			(at 200.66 100.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5360,7 +5222,7 @@
 			)
 		)
 		(property "Value" "5V_BUCK"
-			(at 331.47 120.86 0)
+			(at 200.66 101.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5370,7 +5232,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 124.46 0)
+			(at 200.66 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5381,7 +5243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 124.46 0)
+			(at 200.66 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5391,7 +5253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 124.46 0)
+			(at 200.66 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5414,7 +5276,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:ProbePad_D1.0mm")
-		(at 92.71 194.31 0)
+		(at 92.71 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5424,7 +5286,7 @@
 		(dnp no)
 		(uuid "bae8adcf-588a-4f27-bb1b-a622c8ac2360")
 		(property "Reference" "TP5"
-			(at 92.71 189.19 0)
+			(at 92.71 140.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5434,7 +5296,7 @@
 			)
 		)
 		(property "Value" "3V3_MAIN"
-			(at 92.71 190.71 0)
+			(at 92.71 142.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5444,7 +5306,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:ProbePad_D1.0mm"
-			(at 92.71 194.31 0)
+			(at 92.71 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,7 +5317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 194.31 0)
+			(at 92.71 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5465,7 +5327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 194.31 0)
+			(at 92.71 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5565,7 +5427,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 54.61 0)
+		(at 242.57 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5575,7 +5437,7 @@
 		(dnp no)
 		(uuid "cf2d235d-b557-4a5f-b0d0-3abc29506ec6")
 		(property "Reference" "J16"
-			(at 331.47 49.49 0)
+			(at 242.57 49.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5585,7 +5447,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 331.47 51.01 0)
+			(at 242.57 51.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5595,7 +5457,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 54.61 0)
+			(at 242.57 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5606,7 +5468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 54.61 0)
+			(at 242.57 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5616,7 +5478,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 54.61 0)
+			(at 242.57 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5639,7 +5501,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 177.8 0)
+		(at 200.66 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5649,7 +5511,7 @@
 		(dnp no)
 		(uuid "d7ae5f28-23d4-4911-bb44-42dda641642f")
 		(property "Reference" "J25"
-			(at 331.47 172.68 0)
+			(at 200.66 153.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5659,7 +5521,7 @@
 			)
 		)
 		(property "Value" "LED_OUT"
-			(at 331.47 174.2 0)
+			(at 200.66 155.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5669,7 +5531,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 177.8 0)
+			(at 200.66 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5680,7 +5542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 177.8 0)
+			(at 200.66 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5690,7 +5552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 177.8 0)
+			(at 200.66 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5713,7 +5575,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 331.47 66.04 0)
+		(at 242.57 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5723,7 +5585,7 @@
 		(dnp no)
 		(uuid "ec2c6a4a-2f76-4903-9f76-84ee138b9f5c")
 		(property "Reference" "J17"
-			(at 331.47 60.92 0)
+			(at 242.57 60.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5733,7 +5595,7 @@
 			)
 		)
 		(property "Value" "M4"
-			(at 331.47 62.44 0)
+			(at 242.57 62.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5743,7 +5605,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 331.47 66.04 0)
+			(at 242.57 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5754,7 +5616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 66.04 0)
+			(at 242.57 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5764,7 +5626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 66.04 0)
+			(at 242.57 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5787,7 +5649,7 @@
 	)
 	(symbol
 		(lib_id "AERIX20_Pads:WirePad_1.5x2.0mm")
-		(at 46.99 177.8 0)
+		(at 46.99 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim yes)
@@ -5797,7 +5659,7 @@
 		(dnp no)
 		(uuid "f0076033-db30-4c4c-b102-22102fe51cdc")
 		(property "Reference" "J11"
-			(at 46.99 172.68 0)
+			(at 46.99 124.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5807,7 +5669,7 @@
 			)
 		)
 		(property "Value" "5V_BUCK"
-			(at 46.99 174.2 0)
+			(at 46.99 125.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5817,7 +5679,7 @@
 			)
 		)
 		(property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm"
-			(at 46.99 177.8 0)
+			(at 46.99 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5828,7 +5690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 177.8 0)
+			(at 46.99 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5838,7 +5700,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 177.8 0)
+			(at 46.99 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5936,4 +5798,12 @@
 			)
 		)
 	)
+	(rectangle (start 15 12) (end 140 97) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "ee03d18a-4e1d-4c82-820e-085ab7d59817"))
+	(text "USB-C / USB 2.0" (at 21 18 0) (effects (font (size 2 2)) (justify left)) (uuid "cd97e180-5dd1-44a8-bdb4-883756bce926"))
+	(rectangle (start 15 101) (end 140 154) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "d9b80a47-3565-4abb-97be-becb2e69ae86"))
+	(text "ELRS / SWD" (at 21 107 0) (effects (font (size 2 2)) (justify left)) (uuid "d2bc4f45-07fe-4037-ace9-eb3a98893da6"))
+	(rectangle (start 145 12) (end 254 75) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "ac255366-a578-47f1-9155-2b0ecc99a91e"))
+	(text "ESC solder pads" (at 151 18 0) (effects (font (size 2 2)) (justify left)) (uuid "b44772f8-407f-4865-8616-c711b2980b3e"))
+	(rectangle (start 145 78) (end 254 164) (stroke (width 0.254) (type default)) (fill (type none)) (uuid "cade3f3f-8d79-4900-bce8-19dd7ff97601"))
+	(text "VTX / buzzer / RGB pads" (at 151 84 0) (effects (font (size 2 2)) (justify left)) (uuid "3c70682c-7bdb-4a70-9cd9-c0dcc98e4981"))
 )

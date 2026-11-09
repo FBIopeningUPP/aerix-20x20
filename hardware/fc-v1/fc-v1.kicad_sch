@@ -9,135 +9,9 @@
 		(rev "A")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 71 22)
-		(end 95 49)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3480ec10-53e3-438e-8413-688f8531dbbd")
-	)
-	(rectangle
-		(start 46 22)
-		(end 70 49)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "4e205446-5256-47f5-92bb-d125726da547")
-	)
-	(rectangle
-		(start 97 22)
-		(end 121 49)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "50e69f2c-c1c7-4861-bb09-f5cb73209bb7")
-	)
-	(rectangle
-		(start 122 22)
-		(end 150 49)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5d221426-3bb2-4008-9a0c-19b6c3c64fec")
-	)
-	(rectangle
-		(start 20 22)
-		(end 44 49)
-		(stroke
-			(width 0.18)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "72b78c60-5f36-4849-bd39-0f14cae8d1d8")
-	)
-	(text "MCU and boot"
-		(exclude_from_sim no)
-		(at 25 45 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "0fceab80-ffb3-4d1c-a816-b7ad54528894")
-	)
-	(text "OSD and RGB"
-		(exclude_from_sim no)
-		(at 76 45 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "10ae64ff-8a0b-47e2-be69-c146072ef489")
-	)
-	(text "AERIX-20 / Rev A"
-		(exclude_from_sim no)
-		(at 25 16 0)
-		(effects
-			(font
-				(size 2.4 2.4)
-			)
-			(justify left)
-		)
-		(uuid "3246b6c2-b439-4040-88bc-5b93870a4a8f")
-	)
-	(text "Power rails"
-		(exclude_from_sim no)
-		(at 102 45 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "6b5c7a7f-02ce-4bb9-a430-be943581a9cd")
-	)
-	(text "IMU and flash"
-		(exclude_from_sim no)
-		(at 51 45 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "7275b492-c801-4777-8769-2a8f3a68bf45")
-	)
-	(text "Ports and pads"
-		(exclude_from_sim no)
-		(at 127 45 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "c9652bb0-587b-4306-beb5-ab176af770e1")
-	)
 	(sheet
-		(at 101.6 25.4)
-		(size 12.7 12.7)
+		(at 177.8 38.1)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -152,7 +26,7 @@
 		)
 		(uuid "5464206d-1d2c-456a-8efe-b1b82dd32338")
 		(property "Sheetname" "power"
-			(at 101.6 24.6884 0)
+			(at 177.8 36.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -163,7 +37,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 101.6 38.6846 0)
+			(at 177.8 57.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -182,8 +56,8 @@
 		)
 	)
 	(sheet
-		(at 76.2 25.4)
-		(size 12.7 12.7)
+		(at 127.0 38.1)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -198,7 +72,7 @@
 		)
 		(uuid "7968b0c2-9de6-4edc-bde7-47de20b361df")
 		(property "Sheetname" "etc"
-			(at 76.2 24.6884 0)
+			(at 127 36.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -209,7 +83,7 @@
 			)
 		)
 		(property "Sheetfile" "etc.kicad_sch"
-			(at 76.2 38.6846 0)
+			(at 127 57.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -228,8 +102,8 @@
 		)
 	)
 	(sheet
-		(at 127 25.4)
-		(size 12.7 12.7)
+		(at 228.6 38.1)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -244,7 +118,7 @@
 		)
 		(uuid "95ad5882-ba1c-44b4-bafc-bf2464e35f36")
 		(property "Sheetname" "signal"
-			(at 127 24.6884 0)
+			(at 228.6 36.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -255,7 +129,7 @@
 			)
 		)
 		(property "Sheetfile" "signal.kicad_sch"
-			(at 127 38.6846 0)
+			(at 228.6 57.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -274,8 +148,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 25.4)
-		(size 12.7 12.7)
+		(at 76.2 38.1)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -290,7 +164,7 @@
 		)
 		(uuid "d2c1e72c-f3da-42f1-a0df-1ca865ebbc1b")
 		(property "Sheetname" "sensor"
-			(at 50.8 24.6884 0)
+			(at 76.2 36.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -301,7 +175,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor.kicad_sch"
-			(at 50.8 38.6846 0)
+			(at 76.2 57.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -320,8 +194,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 25.4)
-		(size 12.7 12.7)
+		(at 25.4 38.1)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -336,7 +210,7 @@
 		)
 		(uuid "e38bf00c-9722-42f1-afcb-482b9e7cd1be")
 		(property "Sheetname" "mcu"
-			(at 25.4 24.6884 0)
+			(at 25.4 36.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -347,7 +221,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 25.4 38.6846 0)
+			(at 25.4 57.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -371,4 +245,10 @@
 		)
 	)
 	(embedded_fonts no)
+	(text "AERIX-20 / Rev A" (at 25.4 23 0) (effects (font (size 3.2 3.2)) (justify left)) (uuid "e395dd71-2e2f-4a3d-9324-19a626d073aa"))
+	(text "MCU and boot" (at 25.4 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "ebc84820-ce62-43f0-b18d-d52ab4f9b627"))
+	(text "Sensors and blackbox" (at 76.2 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "854f782f-39c6-47c8-817d-b5887485cb36"))
+	(text "RGB and buzzer" (at 127 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "8572c3d9-4f60-4510-8afa-72a2a8de78d4"))
+	(text "Power rails" (at 177.8 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "fc39f497-077b-4497-a85e-a60d8e199674"))
+	(text "Ports and pads" (at 228.6 63.5 0) (effects (font (size 1.55 1.55)) (justify left)) (uuid "192677bc-eb85-4fba-b6c8-1ae28b350e29"))
 )

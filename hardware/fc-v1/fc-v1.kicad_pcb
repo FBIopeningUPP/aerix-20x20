@@ -153,7 +153,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "0090cac8-fc2f-4f24-989b-17f5c94a9974")
-		(at 114.2 90.7 -90)
+		(at 114.05 90.85 -90)
 		(property "Reference" "LED16"
 			(at 0 -4.55 90)
 			(layer "F.SilkS")
@@ -417,11 +417,22 @@
 			(uuid "07a83142-4e9c-425b-a2df-9a0ae4236f52")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "012c207f-0b08-4f99-ad31-b24cff27df24")
-		(at 99.95 105.05 -90)
+		(at 99.8 105.05 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -739,7 +750,7 @@
 	(footprint "AERIX20_Pads:ProbePad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "04c02ef5-ba5c-4ad3-bc80-b8cfed4ab6c0")
-		(at 69.5 129.15)
+		(at 94.6 106.6)
 		(descr "Bench probe test pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "TP5"
@@ -824,7 +835,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "07801f6c-9e44-49c4-935b-340d4db7ef2b")
-		(at 97.7 110.85)
+		(at 98 110.6)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J18"
@@ -1069,7 +1080,7 @@
 	(footprint "Diode_SMD:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "0e6e791d-ec9c-4c45-a66c-6aadd279ad2c")
-		(at 111.65 98.95 180)
+		(at 106.3 91.55 180)
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D2"
@@ -1489,7 +1500,7 @@
 	(footprint "AERIX20_Pads:ProbePad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "1760b046-2a52-40cd-b74c-12630e7d47be")
-		(at 58.85 129.15)
+		(at 95.25 105.5)
 		(descr "Bench probe test pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "TP2"
@@ -1574,7 +1585,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "1f97d2b6-6f7d-4942-89eb-4a4bc4d85703")
-		(at 100.9 105.05 -90)
+		(at 100.8 105.05 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C12"
@@ -1733,7 +1744,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "21f8de88-93d2-4a55-9337-9295cdd9aa96")
-		(at 102.7 94.65 90)
+		(at 102.6 94.65 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -2051,7 +2062,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "2d8069bd-e5ce-4cad-9b4d-bfa860694fd6")
-		(at 97.7 113.2)
+		(at 97.6 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J16"
@@ -2137,7 +2148,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "2d9b2b9a-e532-4de4-8a7d-672bb2527292")
-		(at 94.5 86.8)
+		(at 93.4 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J9"
@@ -2382,7 +2393,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "38192cd6-3187-4d70-827c-12cb425b4aa3")
-		(at 98.15 86.8)
+		(at 97.8 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J13"
@@ -2468,7 +2479,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "3f1d49e0-bedc-4737-bcbe-642d6ad30f08")
-		(at 109.3 85.85 180)
+		(at 109.15 85.95 180)
 		(property "Reference" "LED17"
 			(at 0 -4.55 0)
 			(layer "F.SilkS")
@@ -2732,6 +2743,17 @@
 			(uuid "f2e0c834-117d-42b8-8d2b-3b86716c4856")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -2922,7 +2944,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "423bfea9-26d8-4aac-ba4f-8eddda09e3cc")
-		(at 192.08 137.2)
+		(at 106.6 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J25"
@@ -3008,7 +3030,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "4a21b838-11f0-496b-b742-7c2bf0dcbd3a")
-		(at 101.35 110.9)
+		(at 102.4 110.05)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J24"
@@ -3094,7 +3116,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "58ca8a93-fe9a-4442-b42d-0ccea57c2676")
-		(at 109.45 114.25 180)
+		(at 109.15 114.05 180)
 		(property "Reference" "LED14"
 			(at 0 -4.55 0)
 			(layer "F.SilkS")
@@ -3358,11 +3380,22 @@
 			(uuid "27d6ff0c-2e56-4908-a663-3b02ddcfc3f0")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "5cc955d4-f5a0-4517-9ae7-d75cda56d8ed")
-		(at 105.55 89.15)
+		(at 102.6 89.35)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J21"
@@ -3607,7 +3640,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "630293cd-1889-4c7f-8027-45ef1c3bf51e")
-		(at 93.95 110.9)
+		(at 93.6 110.6)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J12"
@@ -3693,7 +3726,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "644795e6-cb14-4036-9a58-9eb1551d2e89")
-		(at 90.54 114.2)
+		(at 90.85 114.05)
 		(property "Reference" "LED13"
 			(at 0 -4.55 0)
 			(layer "F.SilkS")
@@ -3957,6 +3990,17 @@
 			(uuid "58a459ac-90d1-4aa1-a8fa-823c4b3541c3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -4147,7 +4191,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "6f5d2787-5612-48eb-a9f7-73bc868db3ba")
-		(at 54.915 127.675)
+		(at 89.55 95.9)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R25"
@@ -4306,7 +4350,7 @@
 	(footprint "AERIX20_Pads:ProbePad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "76f29e4f-a665-432c-a3ff-ef573110a506")
-		(at 55.3 129.15)
+		(at 95.25 104.2)
 		(descr "Bench probe test pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "TP1"
@@ -4391,7 +4435,7 @@
 	(footprint "AERIX20_Pads:ProbePad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "77a8bd34-e583-4976-91a2-9ba5652b4f7b")
-		(at 62.4 129.15)
+		(at 93.95 104.2)
 		(descr "Bench probe test pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "TP3"
@@ -4635,7 +4679,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "7e9a61f3-046a-49d8-8f86-daaea79a6ae3")
-		(at 101.3 113.2)
+		(at 101.9 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J4"
@@ -4721,7 +4765,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "802ae0b9-bd77-4b73-bbb6-5cdfb0678846")
-		(at 101.85 105.05 -90)
+		(at 101.8 105.05 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
@@ -5039,7 +5083,7 @@
 	(footprint "Diode_SMD:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "88552f42-45de-4b19-a62c-235fb84b7b7d")
-		(at 111.65 97.25 180)
+		(at 109.15 94 180)
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D1"
@@ -6367,7 +6411,7 @@
 			(uuid "0437b07f-4ef8-417b-9e16-7d8d4e90da27")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm.step"
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/QFN-60_L7.0-W7.0-P0.40-TL-EP3.4.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6382,7 +6426,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "8e1d0746-698c-417c-9356-116b2112156b")
-		(at 95.8 110.85)
+		(at 95.8 110.55)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J11"
@@ -6468,7 +6512,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "95beada7-aea8-49b4-b48c-f25988879338")
-		(at 96.3 86.8)
+		(at 95.6 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J10"
@@ -6554,7 +6598,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "969095cd-9979-4f34-b50d-293a5913cd60")
-		(at 87.2 100.1)
+		(at 87.45 100.65)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "LED1"
@@ -6764,7 +6808,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9b022c30-fb5f-46b3-9cd6-57bf75266614")
-		(at 95.6 90.95 -90)
+		(at 95.45 90.95 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C21"
@@ -7082,7 +7126,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "9ea3dc81-e339-474d-8b5a-9498de8f777f")
-		(at 85.85 90.72 -90)
+		(at 85.95 90.85 -90)
 		(property "Reference" "LED11"
 			(at 0 -4.55 90)
 			(layer "F.SilkS")
@@ -7346,11 +7390,22 @@
 			(uuid "a8f6219f-39cf-4bfd-81c5-d1c171e2132e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "AERIX20_Pads:WirePad_2.0x2.5mm"
 		(layer "F.Cu")
 		(uuid "9f7f36c8-df88-42ba-bb5a-f3d10fbf67da")
-		(at 105.75 112.85)
+		(at 106.85 111.35)
 		(descr "Larger wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J2"
@@ -7790,7 +7845,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "ab7c6fb7-4b77-43ed-8f32-d554789233ec")
-		(at 90.8 85.9)
+		(at 90.85 85.95)
 		(property "Reference" "LED10"
 			(at 0 -4.55 0)
 			(layer "F.SilkS")
@@ -8054,6 +8109,17 @@
 			(uuid "95fbc227-f33e-478d-a07c-57bfd482f724")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -8217,7 +8283,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b35bc0f9-1150-4db2-8081-3848f9e65dbf")
-		(at 89.79 100.15)
+		(at 90.05 100.65)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R32"
@@ -8609,7 +8675,7 @@
 	(footprint "AERIX20_Pads:ProbePad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "cc72c7b1-dcea-4b98-88e9-27db90f3997d")
-		(at 65.95 129.15)
+		(at 93.95 105.5)
 		(descr "Bench probe test pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "TP4"
@@ -8694,7 +8760,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "cd890d5a-c328-44e1-98d9-ed2505a265b7")
-		(at 99.5 113.2)
+		(at 99.75 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J17"
@@ -8780,7 +8846,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "cf0ca41c-bd53-40f5-bd27-1f5d82093168")
-		(at 105.23 98.4)
+		(at 105.23 98.3)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -9025,7 +9091,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "d7ae1830-5ce1-4092-a764-425ae73a26de")
-		(at 114.15 109.28 90)
+		(at 114.05 109.15 90)
 		(property "Reference" "LED15"
 			(at 0 -4.55 90)
 			(layer "F.SilkS")
@@ -9289,6 +9355,17 @@
 			(uuid "6b850ad0-c3ec-45aa-ab64-196d53048bcd")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "AERIX20:CRYSTAL-SMD_4P-L2.5-W2.0-BL"
 		(layer "F.Cu")
@@ -9717,7 +9794,7 @@
 			(uuid "03831b33-7543-464d-874f-9cb7c3f542a0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_sparkfun_SparkFun-KiCad-Libraries/Switch.3dshapes/Push_SMD_4.2x3.2mm_h2.5mm_Biege.step"
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/Push_SMD_4.2x3.2mm_h2.5mm_Biege.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9918,7 +9995,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "e77fbd60-2e7d-4277-9b1b-40a83c2b272c")
-		(at 99.55 110.9)
+		(at 100.2 110.6)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J23"
@@ -10004,7 +10081,7 @@
 	(footprint "AERIX20_Pads:WirePad_2.0x2.5mm"
 		(layer "F.Cu")
 		(uuid "e78aa76a-dc4b-4c52-b2ec-cadc1085dbec")
-		(at 103.35 112.95)
+		(at 104.25 112.85)
 		(descr "Larger wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J3"
@@ -10249,7 +10326,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "eaf49312-5848-4e3d-95f0-74c37cde83d3")
-		(at 103.65 86.8)
+		(at 104.4 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J20"
@@ -10335,7 +10412,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "ebe1cb35-102d-47cd-9397-0cfc816bd517")
-		(at 101.8 86.8)
+		(at 102.2 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J22"
@@ -10421,7 +10498,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "f0e8cc2b-012e-49e3-a1b1-3148fcea255e")
-		(at 95.9 113.2)
+		(at 95.45 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J15"
@@ -10507,7 +10584,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "f524553b-778c-45ca-8f5f-a0f357f53f2b")
-		(at 94.1 113.2)
+		(at 93.3 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J14"
@@ -10593,7 +10670,7 @@
 	(footprint "AERIX20:LED-SMD_4P-L2.2-W2.0-P1.00_WS2815C-2020-4P"
 		(layer "F.Cu")
 		(uuid "f6c68e89-c9d0-4cdd-a9cf-a6ced5c4cb30")
-		(at 85.9 109.22 90)
+		(at 85.95 109.15 90)
 		(property "Reference" "LED12"
 			(at 0 -4.55 90)
 			(layer "F.SilkS")
@@ -10857,11 +10934,22 @@
 			(uuid "bc464d9e-600c-4561-a1a7-fce25ef7a202")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../libs/AERIX20.3dshapes/WS2812B-2020-V6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fb975476-9683-4625-bac0-6e21d17bf3cd")
-		(at 99 105.05 -90)
+		(at 98.8 105.05 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C9"
@@ -11536,7 +11624,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "11d5495d-a647-4ba4-8a5b-c9cd72644670")
-		(at 104.5 98.29 90)
+		(at 104.4 98.29 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -12647,7 +12735,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "2d091c46-bf16-4bb3-beb4-fd0e3b95fc52")
-		(at 114.15 109.28 -90)
+		(at 114.05 109.15 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C49"
@@ -12977,7 +13065,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "35258ea2-5298-4ae9-8607-a3f03bace03f")
-		(at 85.85 90.72 90)
+		(at 85.95 90.85 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C43"
@@ -13529,7 +13617,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "40391af6-3164-477c-9c87-b862f708c8f3")
-		(at 114.2 90.7 90)
+		(at 114.05 90.85 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C48"
@@ -16395,7 +16483,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9845a982-b811-4709-9654-c34d9f7f875a")
-		(at 85.9 109.22 -90)
+		(at 85.95 109.15 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C46"
@@ -17395,7 +17483,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "9f4ab48f-bac1-4f21-9aea-fb846b75aeec")
-		(at 90.54 114.2 180)
+		(at 90.85 114.05 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
@@ -17560,7 +17648,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "a1698c0a-403e-4d86-a05e-3e29f7f6237d")
-		(at 98.85 95.2)
+		(at 98.4 95.2)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C17"
@@ -18644,7 +18732,7 @@
 	(footprint "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "aff62296-6d04-49fd-bc1a-e5d1dfcb15da")
-		(at 111.59 101.65)
+		(at 104.55 103.8)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -19330,7 +19418,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "b75a5971-3571-4a4b-b619-d5822d353418")
-		(at 109.3 85.85)
+		(at 109.15 85.95)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C47"
@@ -19495,7 +19583,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "be20b377-a074-4a9a-966c-a8086a637e53")
-		(at 109.45 114.25)
+		(at 109.15 114.05)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C44"
@@ -20208,7 +20296,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "e6140f7d-78d2-4d14-91cc-edb8c88de194")
-		(at 90.8 85.9 180)
+		(at 90.85 85.95 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C42"

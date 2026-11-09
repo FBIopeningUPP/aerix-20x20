@@ -835,7 +835,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "07801f6c-9e44-49c4-935b-340d4db7ef2b")
-		(at 98 110.6)
+		(at 97.86 110.6)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J18"
@@ -1080,11 +1080,11 @@
 	(footprint "Diode_SMD:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "0e6e791d-ec9c-4c45-a66c-6aadd279ad2c")
-		(at 106.3 91.55 180)
+		(at 109.8 97.55 90)
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D2"
-			(at -0.127 -1.905 0)
+			(at -0.127 -1.905 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fdd5921c-eab4-43ad-886c-b27e44701c2b")
@@ -1096,7 +1096,7 @@
 			)
 		)
 		(property "Value" "PMEG4010CEH,115"
-			(at 0 2.1 0)
+			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "944ae70d-2d57-4f87-a871-53c735fdf8fb")
 			(effects
@@ -1107,7 +1107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1120,7 +1120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1144,16 +1144,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 2.2 1.15)
-			(end -2.2 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "735b37fd-2cc2-427e-9329-9e16c2b4ae63")
-		)
 		(fp_line
 			(start 2.2 -1.15)
 			(end 2.2 1.15)
@@ -1185,14 +1175,14 @@
 			(uuid "44c0993e-e83b-4f70-9b3e-da5a06c67273")
 		)
 		(fp_line
-			(start 1.4 0.9)
-			(end -1.4 0.9)
+			(start 2.2 1.15)
+			(end -2.2 1.15)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "d06689bf-0d9f-472d-996e-514ce44d361a")
+			(layer "F.CrtYd")
+			(uuid "735b37fd-2cc2-427e-9329-9e16c2b4ae63")
 		)
 		(fp_line
 			(start 1.4 -0.9)
@@ -1205,14 +1195,24 @@
 			(uuid "d7997cdb-e29f-434c-9ea3-7f039bef6807")
 		)
 		(fp_line
-			(start 0.25 0.4)
-			(end -0.35 0)
+			(start -1.4 -0.9)
+			(end 1.4 -0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f944d1db-b008-4f16-ad1d-0f29e5084b66")
+			(uuid "cd646aee-9888-4903-a8d8-1d412d1716d3")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "06ee11df-a1ea-4da5-b4b1-02fcbec95be7")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -1225,14 +1225,14 @@
 			(uuid "423b6f3c-7915-44a7-912f-b68b1dd44095")
 		)
 		(fp_line
-			(start 0.25 -0.4)
-			(end 0.25 0.4)
+			(start -0.35 0)
+			(end -0.35 -0.55)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "06ee11df-a1ea-4da5-b4b1-02fcbec95be7")
+			(uuid "1a48c86f-f9e4-4dfe-bba9-984dd158d7e1")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -1255,16 +1255,6 @@
 			(uuid "8d0a714f-a858-4070-bb44-40586e82259e")
 		)
 		(fp_line
-			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1a48c86f-f9e4-4dfe-bba9-984dd158d7e1")
-		)
-		(fp_line
 			(start -0.75 0)
 			(end -0.35 0)
 			(stroke
@@ -1273,6 +1263,26 @@
 			)
 			(layer "F.Fab")
 			(uuid "7c72a05f-8f9e-48eb-acd6-b037a95e06b6")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f944d1db-b008-4f16-ad1d-0f29e5084b66")
+		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d06689bf-0d9f-472d-996e-514ce44d361a")
 		)
 		(fp_line
 			(start -1.4 0.9)
@@ -1284,18 +1294,8 @@
 			(layer "F.Fab")
 			(uuid "8ae21d2b-5978-4217-bdc0-dfb6b1dc8b6c")
 		)
-		(fp_line
-			(start -1.4 -0.9)
-			(end 1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "cd646aee-9888-4903-a8d8-1d412d1716d3")
-		)
 		(fp_text user "${REFERENCE}"
-			(at -0.127 -1.905 0)
+			(at -0.127 -1.905 90)
 			(layer "F.Fab")
 			(uuid "015b3eaa-1f48-432e-99e4-abdaa18a82c1")
 			(effects
@@ -1306,7 +1306,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.4 0 180)
+			(at -1.4 0 90)
 			(size 1.1 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2272727273)
@@ -1316,7 +1316,7 @@
 			(uuid "56ab3572-3bc9-4915-a7c8-e8a83276688d")
 		)
 		(pad "2" smd roundrect
-			(at 1.4 0 180)
+			(at 1.4 0 90)
 			(size 1.1 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2272727273)
@@ -2062,7 +2062,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "2d8069bd-e5ce-4cad-9b4d-bfa860694fd6")
-		(at 97.6 113.2)
+		(at 97.77 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J16"
@@ -2148,7 +2148,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "2d9b2b9a-e532-4de4-8a7d-672bb2527292")
-		(at 93.4 86.8)
+		(at 93.82 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J9"
@@ -2393,7 +2393,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "38192cd6-3187-4d70-827c-12cb425b4aa3")
-		(at 97.8 86.8)
+		(at 97.94 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J13"
@@ -2944,7 +2944,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "423bfea9-26d8-4aac-ba4f-8eddda09e3cc")
-		(at 106.6 86.8)
+		(at 106.18 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J25"
@@ -3030,7 +3030,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "4a21b838-11f0-496b-b742-7c2bf0dcbd3a")
-		(at 102.4 110.05)
+		(at 101.98 110.4)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J24"
@@ -3640,7 +3640,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "630293cd-1889-4c7f-8027-45ef1c3bf51e")
-		(at 93.6 110.6)
+		(at 93.74 110.6)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J12"
@@ -4679,7 +4679,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "7e9a61f3-046a-49d8-8f86-daaea79a6ae3")
-		(at 101.9 113.2)
+		(at 101.89 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J4"
@@ -5083,11 +5083,11 @@
 	(footprint "Diode_SMD:D_SOD-123F"
 		(layer "F.Cu")
 		(uuid "88552f42-45de-4b19-a62c-235fb84b7b7d")
-		(at 109.15 94 180)
+		(at 109.8 102.15 -90)
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D1"
-			(at -0.127 -1.905 0)
+			(at -0.127 -1.905 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "13e39921-9e5e-44c1-a1de-da45b7ae821d")
@@ -5099,7 +5099,7 @@
 			)
 		)
 		(property "Value" "PMEG4010CEH,115"
-			(at 0 2.1 0)
+			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "ccb93605-fa7f-4e62-b1c9-99c5dca79fa7")
 			(effects
@@ -5110,7 +5110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5123,7 +5123,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5158,14 +5158,14 @@
 			(uuid "6aae11aa-1254-4cae-907c-60b954a92510")
 		)
 		(fp_line
-			(start 2.2 -1.15)
-			(end 2.2 1.15)
+			(start -2.2 -1.15)
+			(end -2.2 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a1c76112-ee66-42e3-af63-c698075a4b5d")
+			(uuid "045221be-2ff3-4875-a2eb-577f673249f6")
 		)
 		(fp_line
 			(start -2.2 -1.15)
@@ -5178,14 +5178,24 @@
 			(uuid "d6ad14de-e9b7-42fe-a2c5-b1bb96d4d4cf")
 		)
 		(fp_line
-			(start -2.2 -1.15)
-			(end -2.2 1.15)
+			(start 2.2 -1.15)
+			(end 2.2 1.15)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "045221be-2ff3-4875-a2eb-577f673249f6")
+			(uuid "a1c76112-ee66-42e3-af63-c698075a4b5d")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.4 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "187f9592-27cc-4876-aed7-1d68903aec75")
 		)
 		(fp_line
 			(start 1.4 0.9)
@@ -5198,16 +5208,6 @@
 			(uuid "732ea71b-2d50-44d9-a67d-1f1d04fb8cf9")
 		)
 		(fp_line
-			(start 1.4 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b394fa10-070e-4710-94de-0d56e83fe01d")
-		)
-		(fp_line
 			(start 0.25 0.4)
 			(end -0.35 0)
 			(stroke
@@ -5216,6 +5216,46 @@
 			)
 			(layer "F.Fab")
 			(uuid "44a6c1d5-0761-44a4-862e-5c823b4e792a")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "47a165e8-bd7c-4126-b831-03c8e6abfb2d")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b14c7fa5-9723-4d4d-89b0-43564ba12c53")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36a82b0a-a54f-44a8-8da0-0ce81abd82ce")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1ccf470-7ba6-4682-9e58-86ebe30f3ffb")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -5238,56 +5278,6 @@
 			(uuid "e28429f6-90b3-4a43-b2da-143de40a378a")
 		)
 		(fp_line
-			(start -0.35 0)
-			(end 0.25 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "36a82b0a-a54f-44a8-8da0-0ce81abd82ce")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b14c7fa5-9723-4d4d-89b0-43564ba12c53")
-		)
-		(fp_line
-			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "c1ccf470-7ba6-4682-9e58-86ebe30f3ffb")
-		)
-		(fp_line
-			(start -0.75 0)
-			(end -0.35 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "47a165e8-bd7c-4126-b831-03c8e6abfb2d")
-		)
-		(fp_line
-			(start -1.4 0.9)
-			(end -1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "187f9592-27cc-4876-aed7-1d68903aec75")
-		)
-		(fp_line
 			(start -1.4 -0.9)
 			(end 1.4 -0.9)
 			(stroke
@@ -5297,8 +5287,18 @@
 			(layer "F.Fab")
 			(uuid "747449d1-2d08-4d8c-b4e9-5f251603705a")
 		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b394fa10-070e-4710-94de-0d56e83fe01d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at -0.127 -1.905 0)
+			(at -0.127 -1.905 90)
 			(layer "F.Fab")
 			(uuid "08bd98f0-0f47-4a77-b6fc-8b43b43420e8")
 			(effects
@@ -5309,7 +5309,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.4 0 180)
+			(at -1.4 0 270)
 			(size 1.1 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2272727273)
@@ -5319,7 +5319,7 @@
 			(uuid "4d1302c4-d62e-4cdc-8141-5942a95b6ca0")
 		)
 		(pad "2" smd roundrect
-			(at 1.4 0 180)
+			(at 1.4 0 270)
 			(size 1.1 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.2272727273)
@@ -6512,7 +6512,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "95beada7-aea8-49b4-b48c-f25988879338")
-		(at 95.6 86.8)
+		(at 95.88 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J10"
@@ -7405,7 +7405,7 @@
 	(footprint "AERIX20_Pads:WirePad_2.0x2.5mm"
 		(layer "F.Cu")
 		(uuid "9f7f36c8-df88-42ba-bb5a-f3d10fbf67da")
-		(at 106.85 111.35)
+		(at 105.85 109.75)
 		(descr "Larger wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J2"
@@ -8760,7 +8760,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "cd890d5a-c328-44e1-98d9-ed2505a265b7")
-		(at 99.75 113.2)
+		(at 99.83 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J17"
@@ -9560,11 +9560,11 @@
 	(footprint "PCM_SparkFun-Switch:Push_SMD_4.2x3.2mm_h2.5mm_Beige"
 		(layer "F.Cu")
 		(uuid "e0789dd9-a8e3-4812-af7e-f5bd5e5d7eb4")
-		(at 111.59 101.65 180)
+		(at 112.55 99.88 90)
 		(descr "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_skrp_en_2cd80f610b.pdf")
 		(tags "SparkFun Momentary Switch (Pushbutton)")
 		(property "Reference" "SW1"
-			(at 0 -2.1 0)
+			(at 0 -2.1 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b0f0b5bb-1b95-4526-a6c2-cc1ed3f94bea")
@@ -9576,7 +9576,7 @@
 			)
 		)
 		(property "Value" "Momentary Tactile Button - Biege"
-			(at 0 2.1 0)
+			(at 0 2.1 90)
 			(layer "F.Fab")
 			(uuid "c2520c04-f255-43b0-b85e-e01929b46edc")
 			(effects
@@ -9587,7 +9587,7 @@
 			)
 		)
 		(property "Datasheet" "https://tech.alpsalpine.com/cms.media/product_catalog_ta_02_skrp_en_2cd80f610b.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9600,7 +9600,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9613,7 +9613,7 @@
 			)
 		)
 		(property "PROD_ID" "SWCH-24981"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9626,7 +9626,7 @@
 			)
 		)
 		(property "Mfg Part#" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -9650,34 +9650,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 2.1 0.4)
-			(end 2.1 -0.4)
+			(start -1.338 -1.6)
+			(end 1.338 -1.6)
 			(stroke
 				(width 0.2032)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3797b41f-99e0-458c-9ac0-604f503551a3")
-		)
-		(fp_line
-			(start 1.338 1.6)
-			(end -1.338 1.6)
-			(stroke
-				(width 0.2032)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2b42cbc2-d606-4712-847d-48fc6600ede6")
-		)
-		(fp_line
-			(start -0.4 1.1)
-			(end 0.4 1.1)
-			(stroke
-				(width 0.2032)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "8201a707-762d-4594-b490-357ad96428be")
+			(uuid "50e8f85c-3d38-4a53-a933-dcaf1acaae71")
 		)
 		(fp_line
 			(start -0.4 -1.1)
@@ -9690,14 +9670,14 @@
 			(uuid "e52af3e6-1f72-4655-9057-e7c94eb90f6c")
 		)
 		(fp_line
-			(start -1.338 -1.6)
-			(end 1.338 -1.6)
+			(start 2.1 0.4)
+			(end 2.1 -0.4)
 			(stroke
 				(width 0.2032)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "50e8f85c-3d38-4a53-a933-dcaf1acaae71")
+			(uuid "3797b41f-99e0-458c-9ac0-604f503551a3")
 		)
 		(fp_line
 			(start -2.1 0.4)
@@ -9708,6 +9688,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fa821b05-9d04-4120-8a0c-e51b48ee3fea")
+		)
+		(fp_line
+			(start -0.4 1.1)
+			(end 0.4 1.1)
+			(stroke
+				(width 0.2032)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "8201a707-762d-4594-b490-357ad96428be")
+		)
+		(fp_line
+			(start 1.338 1.6)
+			(end -1.338 1.6)
+			(stroke
+				(width 0.2032)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b42cbc2-d606-4712-847d-48fc6600ede6")
 		)
 		(fp_arc
 			(start 0.4 -1.1)
@@ -9754,7 +9754,7 @@
 			(uuid "5ce63ff9-99c4-40af-906a-2feec191c564")
 		)
 		(pad "1" smd rect
-			(at -2.075 -1.075 180)
+			(at -2.075 -1.075 90)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U1-~{QSPI_SS})")
@@ -9764,7 +9764,7 @@
 			(uuid "8c88d362-9508-4b11-b953-084e982b7975")
 		)
 		(pad "1" smd rect
-			(at 2.075 -1.075 180)
+			(at 2.075 -1.075 90)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(U1-~{QSPI_SS})")
@@ -9774,7 +9774,7 @@
 			(uuid "e4d74252-c6f6-4694-8856-cf501abe1c8f")
 		)
 		(pad "2" smd rect
-			(at -2.075 1.075 180)
+			(at -2.075 1.075 90)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(R3-Pad1)")
@@ -9784,7 +9784,7 @@
 			(uuid "f493df0f-ba1c-4c48-8708-bf1e1815174f")
 		)
 		(pad "2" smd rect
-			(at 2.075 1.075 180)
+			(at 2.075 1.075 90)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(R3-Pad1)")
@@ -9995,7 +9995,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "e77fbd60-2e7d-4277-9b1b-40a83c2b272c")
-		(at 100.2 110.6)
+		(at 99.92 110.6)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J23"
@@ -10326,7 +10326,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "eaf49312-5848-4e3d-95f0-74c37cde83d3")
-		(at 104.4 86.8)
+		(at 104.12 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J20"
@@ -10412,7 +10412,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "ebe1cb35-102d-47cd-9397-0cfc816bd517")
-		(at 102.2 86.8)
+		(at 102.06 86.8)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J22"
@@ -10498,7 +10498,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "f0e8cc2b-012e-49e3-a1b1-3148fcea255e")
-		(at 95.45 113.2)
+		(at 95.71 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J15"
@@ -10584,7 +10584,7 @@
 	(footprint "AERIX20_Pads:WirePad_1.5x2.0mm"
 		(layer "F.Cu")
 		(uuid "f524553b-778c-45ca-8f5f-a0f357f53f2b")
-		(at 93.3 113.2)
+		(at 93.65 113.2)
 		(descr "Signal wire solder pad")
 		(tags "solder wire test point exposed copper no paste")
 		(property "Reference" "J14"

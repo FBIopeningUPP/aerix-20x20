@@ -5,13 +5,13 @@
 	(uuid "0cb73a41-08db-4c2a-833d-79306c0ce46c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AERIX20:ABM8-272-T3_C20625731"
+		(symbol "AERIX20:ABM10-167-12.000MHZ-T3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "X"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "ABM8-272-T3_C20625731"
+			(property "Value" "ABM10-167-12.000MHZ-T3"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "AERIX20:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+			(property "Footprint" "AERIX20:CRYSTAL-SMD_4P-L2.5-W2.0-BL"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,7 +42,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C20625731.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C1985295.pdf"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -75,7 +75,7 @@
 					)
 				)
 			)
-			(property "MPN" "ABM8-272-T3"
+			(property "MPN" "ABM10-167-12.000MHZ-T3"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C20625731"
+			(property "LCSC Part" "C1985295"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Crystals"
+			(property "ki_keywords" "Pre-ordered Products"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -108,7 +108,7 @@
 					)
 				)
 			)
-			(symbol "ABM8-272-T3_C20625731_0_1"
+			(symbol "ABM10-167-12.000MHZ-T3_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -122,7 +122,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0)
+						(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.52 0)
 					)
 					(stroke
 						(width 0)
@@ -132,9 +132,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -3.81 -3.81)
-					(radius 0.38)
+				(polyline
+					(pts
+						(xy -1.27 -1.02) (xy -1.27 1.02)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -155,15 +156,52 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -0.51 1.78)
-					(end 0.51 -1.78)
+				(polyline
+					(pts
+						(xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78) (xy 0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 1.78) (xy 0.76 -1.78) (xy -0.76 -1.78) (xy -0.76 1.78) (xy 0.76 1.78)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -1.78) (xy -0.76 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.02) (xy 1.27 1.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -180,7 +218,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0)
+						(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.52 0)
 					)
 					(stroke
 						(width 0)
@@ -190,10 +228,10 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "1"
+					(name "OSC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -208,7 +246,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 7.62 -2.54 180)
 					(length 2.54)
 					(name "GND"
@@ -226,10 +264,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "3"
+					(name "OSC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -244,7 +282,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -2571,6 +2609,12 @@
 		(uuid "8062587d-d491-4684-bd13-f7a49ee06945")
 	)
 	(junction
+		(at 141.605 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88d99fcc-c487-4bb2-808f-4a80e1478403")
+	)
+	(junction
 		(at 167.005 41.275)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2671,12 +2715,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df77e6b4-fc7e-4769-b26e-fdf070086e41")
-	)
-	(junction
-		(at 141.605 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfee38c3-15bc-457e-94cd-4b4500316723")
 	)
 	(junction
 		(at 121.285 48.895)
@@ -4661,127 +4699,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AERIX20:ABM8-272-T3_C20625731")
-		(at 144.145 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b79edf4-61d4-4341-b1f9-eb69bb17460b")
-		(property "Reference" "U2"
-			(at 149.86 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ABM8-272-T3_C20625731"
-			(at 149.86 133.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "AERIX20:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 154.305 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C20625731.pdf"
-			(at 156.845 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 144.145 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "ABRACON"
-			(at 159.385 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ABM8-272-T3"
-			(at 161.925 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C20625731"
-			(at 164.465 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c115f59b-c9cd-4e38-aa73-fa30273b7122")
-		)
-		(pin "2"
-			(uuid "cab4334f-1571-4506-abbc-00a31972475d")
-		)
-		(pin "4"
-			(uuid "4785847a-4f3a-438f-a278-c262419fe9a3")
-		)
-		(pin "3"
-			(uuid "c678aa7b-f905-4e31-983d-39f84252a9d6")
-		)
-		(instances
-			(project "fc-v1"
-				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/e38bf00c-9722-42f1-afcb-482b9e7cd1be"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0402")
 		(at 178.435 45.085 0)
 		(unit 1)
@@ -5421,6 +5338,127 @@
 			(project "fc-v1"
 				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/e38bf00c-9722-42f1-afcb-482b9e7cd1be"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AERIX20:ABM10-167-12.000MHZ-T3")
+		(at 144.145 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb467e68-166f-4ee0-a144-6acedb3ba7d2")
+		(property "Reference" "X1"
+			(at 150.495 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ABM10-167-12.000MHZ-T3"
+			(at 150.495 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "AERIX20:CRYSTAL-SMD_4P-L2.5-W2.0-BL"
+			(at 154.305 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1985295.pdf"
+			(at 156.845 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.145 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ABRACON"
+			(at 159.385 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ABM10-167-12.000MHZ-T3"
+			(at 161.925 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1985295"
+			(at 164.465 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "403c0c32-8884-440b-aaac-507e08bd1f82")
+		)
+		(pin "3"
+			(uuid "51936de1-a1f9-4346-a5d9-5699a8838264")
+		)
+		(pin "4"
+			(uuid "5981c362-be46-4ad7-bbb7-d213fa559ad1")
+		)
+		(pin "1"
+			(uuid "17383030-8a78-4cf7-bba5-2992f98752a5")
+		)
+		(instances
+			(project "fc-v1"
+				(path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/e38bf00c-9722-42f1-afcb-482b9e7cd1be"
+					(reference "X1")
 					(unit 1)
 				)
 			)

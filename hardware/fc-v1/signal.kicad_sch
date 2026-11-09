@@ -9,6 +9,7 @@
 		(rev "A")
 	)
 	(lib_symbols
+
 		(symbol "AERIX20:SM02B-SRSS-TB"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3177,7 +3178,7 @@
 		)
 		(uuid "909cc441-4c3f-4e27-b9a1-4f8e81f0e1c5")
 	)
-	(text "Alternate camera / VTX / buzzer pads"
+	(text "Video / buzzer / RGB pads"
 		(exclude_from_sim no)
 		(at 293 86 0)
 		(effects
@@ -8948,4 +8949,10 @@
 			)
 		)
 	)
+(symbol (lib_id "AERIX20_Pads:WirePad_1.5x2.0mm") (at 331.47 177.80 0) (unit 1)
+          (exclude_from_sim yes) (in_bom no) (on_board yes) (dnp no)
+          (uuid "d7ae5f28-23d4-4911-bb44-42dda641642f") (property "Reference" "J25" (at 331.47 172.68 0) (effects (font (size 1 1)) )) (property "Value" "LED_OUT" (at 331.47 174.20 0) (effects (font (size 1 1)) )) (property "Footprint" "AERIX20_Pads:WirePad_1.5x2.0mm" (at 331.47 177.80 0) (effects (font (size 1 1)) (hide yes))) (pin "1" (uuid "36bfe4ef-9cab-4eca-a11b-8a12e117dab4"))
+          (instances (project "fc-v1" (path "/61339e94-8ed1-46b5-b465-dbd3bd3310e6/95ad5882-ba1c-44b4-bafc-bf2464e35f36" (reference "J25") (unit 1)))))
+(wire (pts (xy 328.93 177.80) (xy 326.39 177.80)) (stroke (width 0) (type default)) (uuid "eb40c4a9-7aea-4ced-9595-d9abb6225f0d"))
+(global_label "LED_OUT" (shape input) (at 326.39 177.80 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "144a64d1-1fc5-497d-8448-1e3830ebf694"))
 )
